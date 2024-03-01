@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="..\xls\Clasificaciones.xsl" type="text/xsl"?>
+
+<f1>
+    <piloto number="2">
+        <posicion>2</posicion>
+        <nombre>Joel</nombre>
+        <imagenPiloto>Joel.png</imagenPiloto>
+        <escuderia>Ferrari</escuderia>
+        <imagenEscuderia>ferrari.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="1">
+        <posicion>1</posicion>
+        <nombre>Mario</nombre>
+        <imagenPiloto>aus.png</imagenPiloto>
+        <escuderia>Ferrari</escuderia>
+        <imagenEscuderia>ferrari.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+</f1>
