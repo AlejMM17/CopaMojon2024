@@ -1,0 +1,160 @@
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url(/fonts/TitilliumWeb-Bold.ttf);
+    font-weight: bold;
+    font-style: bold;
+  }
+  
+  @font-face {
+    font-family: 'Titillium Web';
+    src: url(/fonts/TitilliumWeb-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Titillium Web';
+    src: url(/fonts/TitilliumWeb-SemiBold.ttf);
+    font-weight: 400;
+    font-style: 400;
+  }
+  @font-face {
+    font-family: F1Bold;
+    src: url(/fonts/Formula1-Bold_web_0.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+@font-face {
+    font-family: F1Bold;
+    src: url(/fonts/Formula1-Regular_web_0.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, a,h3,h2,p{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+  }
+  
+  h1,h2 {
+    font-weight: bold;
+  }
+  
+  a,h3 {
+    font-weight: 400;
+  }
+  p{
+    font-weight: normal;
+  }
+  h3{
+    color: black;
+  }
+
+  li {
+    display: inline-block;
+  }
+  li>a{
+    font-size: 1.2em;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    display: block; /* Cambio necesario para que el enlace ocupe toda la altura */
+    padding: 30px; /* Ajusta el padding para que el área de hover abarque toda la altura */
+
+}
+  
+  a:hover {
+    background-color: black;
+  }
+ 
+  header {
+    background-color: #e10600;
+    display: flex;
+    justify-content: center; /* Espaciado entre elementos del header */
+    align-items: center;
+  }
+  .titulo{
+    margin-right: 5%;
+  }
+  nav {
+    display: flex;
+  }
+  
+  .fia {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo{
+    opacity: 0.6;
+  }
+  .fia > h3{
+    opacity: 0.6;
+  }
+  .fia > img {
+    height: 50px;
+    margin: 12px;
+    opacity: 0.4;
+    width: auto;
+  }
+  .bienvenida{
+    background-color: rgb(29, 28, 28);
+    height: 400px;
+    display: flex;
+  }
+  .bienvenida h2{
+    font-size: 34px;
+  }
+  .bienvenida p{
+    font-size: 18px;
+  }
+  .bienvenida div{
+    margin: auto;
+    width: 70%;
+  }
+  .bienvenida > img{
+    height: 14vw;    
+    border-radius: 20px;
+    margin:auto;
+
+  }
+  .top {
+    width: 25%; /* Ajusta el ancho del contenedor principal */
+    background-color: rgb(29, 28, 28);
+    border-radius: 5px;
+    height: 40px;
+    margin: auto auto 10px auto;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+}
+.piloto-tiempo {
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos internos */
+    width: 90%; /* Ajusta el ancho del contenedor de nombre y tiempo */
+}
+
+.tiempo {
+    font-size: 16px; /* Ajusta el tamaño del tiempo según sea necesario */
+    background-color: rgba(244, 244, 244, 0.356);
+    border-radius: 20px;
+    padding: 2px;
+}
+  .bx{
+    font-size: 50px;
+  }
+.polenombre{
+font-family: F1Bold;
+font-weight: bold;
+  font-size: 14px;
+  margin: auto 0;
+}

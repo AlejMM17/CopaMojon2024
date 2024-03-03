@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="..\xls\index.xsl" type="text/xsl"?>
+
+<f1>
+    <piloto number="2">
+        <posicion>2</posicion>
+        <nombre>Joel</nombre>
+        <imagenPiloto>Joel.png</imagenPiloto>
+        <escuderia>Ferrari</escuderia>
+        <imagenEscuderia>ferrari.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="1">
+        <posicion>1</posicion>
+        <nombre>Mario</nombre>
+        <imagenPiloto>aus.png</imagenPiloto>
+        <escuderia>Ferrari</escuderia>
+        <imagenEscuderia>ferrari.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <circuito id="1">
+        <nombre>Bahrain</nombre>
+        <fecha></fecha>
+        <bandera>bahrein.png</bandera>
+        <imagen>Bahrain.avif</imagen>
+        <primero>
+            <piloto>Pepe</piloto>
+            <tiempo>1:31:44.742</tiempo>
+        </primero>
+        <segundo>
+            <piloto>Julian</piloto>
+            <tiempo>+22.457</tiempo>
+        </segundo>
+        <tercero>
+            <piloto>Jorge</piloto>
+            <tiempo>+25.11</tiempo>
+        </tercero>
+    </circuito>
+</f1>
