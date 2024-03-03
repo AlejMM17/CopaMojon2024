@@ -51,8 +51,8 @@
             <xsl:choose>
               <xsl:when test="f1/circuito/@id = 1">
                 <!-- Aquí colocas el contenido que deseas mostrar cuando se cumple la condición -->
-                <h3><xsl:value-of select="f1/circuito/nombre"/></h3>
-                <img src="../imgs/{imagen}" />
+                <h3 class="circuitoN"><xsl:value-of select="f1/circuito/nombre"/></h3>
+                <img src="../imgs/{f1/circuito/imagen}" class="circuitoIMG" />
                 <div class="top">
                     <i class='bx bx-signal-1' style="color:#3671C6"></i>
                     <div class="piloto-tiempo">
