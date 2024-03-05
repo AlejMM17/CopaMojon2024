@@ -342,8 +342,8 @@
         <posicion>17</posicion>
         <nombre>Biel</nombre>
         <imagenPiloto>Biel.png</imagenPiloto>
-        <escuderia>McLaren</escuderia>
-        <imagenEscuderia>mclaren.png</imagenEscuderia>
+        <escuderia>Alpha Tauri</escuderia>
+        <imagenEscuderia>alphatauri.png</imagenEscuderia>
         <carreras>
             <australia>-</australia>
             <canada>-</canada>
@@ -382,6 +382,27 @@
     </piloto>
     <piloto number="19">
         <posicion>19</posicion>
+        <nombre>Razvan</nombre>
+        <imagenPiloto></imagenPiloto>
+        <escuderia>Alpha Tauri</escuderia>
+        <imagenEscuderia>alphatauri.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="20">
+        <posicion>20</posicion>
         <nombre>Poke</nombre>
         <imagenPiloto></imagenPiloto>
         <escuderia>Reserva Aston Martin</escuderia>
@@ -401,8 +422,8 @@
             <mexico>-</mexico>
         </carreras>        
     </piloto>
-    <piloto number="20">
-        <posicion>20</posicion>
+    <piloto number="21">
+        <posicion>21</posicion>
         <nombre>Oliver</nombre>
         <imagenPiloto></imagenPiloto>
         <escuderia>Reserva Ferrari</escuderia>
@@ -422,8 +443,8 @@
             <mexico>-</mexico>
         </carreras>        
     </piloto>
-    <piloto number="21">
-        <posicion>21</posicion>
+    <piloto number="22">
+        <posicion>22</posicion>
         <nombre>Gorka</nombre>
         <imagenPiloto>Gorka.png</imagenPiloto>
         <escuderia>Reserva</escuderia>
@@ -466,7 +487,7 @@
         <nombre>Jeddah</nombre>
         <fecha></fecha>
         <bandera>saudi.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>saudicircuit.png</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -484,7 +505,7 @@
         <nombre>Australia</nombre>
         <fecha></fecha>
         <bandera>aus.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>auscircuit.png</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -502,7 +523,7 @@
         <nombre>Bakú</nombre>
         <fecha></fecha>
         <bandera>azer.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>bakucircuit.png</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -520,7 +541,7 @@
         <nombre>Miami</nombre>
         <fecha></fecha>
         <bandera>usa.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>miamicircuit.png</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -538,7 +559,7 @@
         <nombre>Imola</nombre>
         <fecha></fecha>
         <bandera>italia.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>imolacircuit.png</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -556,7 +577,7 @@
         <nombre>Monaco</nombre>
         <fecha></fecha>
         <bandera>mon.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>moncircuit.png</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -574,7 +595,7 @@
         <nombre>España</nombre>
         <fecha></fecha>
         <bandera>es.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>escircuit.png</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -592,7 +613,7 @@
         <nombre>Canada</nombre>
         <fecha></fecha>
         <bandera>can.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>cancircuit.png</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -610,7 +631,7 @@
         <nombre>Austria</nombre>
         <fecha></fecha>
         <bandera>austria.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>austriacircuit.avif</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -628,7 +649,7 @@
         <nombre>Silverstone</nombre>
         <fecha></fecha>
         <bandera>uk.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>silverstonecircuit.avif</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -646,7 +667,7 @@
         <nombre>Hungria</nombre>
         <fecha></fecha>
         <bandera>hungria.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>hungriacircuit.avif</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -664,7 +685,7 @@
         <nombre>Belgica</nombre>
         <fecha></fecha>
         <bandera>belg.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>belgcircuit.avif</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -682,7 +703,7 @@
         <nombre>Holanda</nombre>
         <fecha></fecha>
         <bandera>hol.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>holcircuit.png</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -700,7 +721,7 @@
         <nombre>Monza</nombre>
         <fecha></fecha>
         <bandera>italia.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>monzacircuit.png</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -718,7 +739,7 @@
         <nombre>Singapur</nombre>
         <fecha></fecha>
         <bandera>sing.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>singcircuit.png</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -736,7 +757,7 @@
         <nombre>Japon</nombre>
         <fecha></fecha>
         <bandera>jap.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>japcircuit.png</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -754,7 +775,7 @@
         <nombre>Catar</nombre>
         <fecha></fecha>
         <bandera>qatar.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>qatarcircuit.png</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -772,7 +793,7 @@
         <nombre>COTA</nombre>
         <fecha></fecha>
         <bandera>usa.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>cotacircuit.png</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -790,7 +811,7 @@
         <nombre>Mexico</nombre>
         <fecha></fecha>
         <bandera>mex.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>mexcircuit.avif</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -808,7 +829,7 @@
         <nombre>Brasil</nombre>
         <fecha></fecha>
         <bandera>brasil.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>brasilcircuit.avif</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -825,7 +846,7 @@
         <nombre>Las Vegas</nombre>
         <fecha></fecha>
         <bandera>usa.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>lasvegascircuit.avif</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -843,7 +864,7 @@
         <nombre>Abu Dhabi</nombre>
         <fecha></fecha>
         <bandera>abu.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>abucircuit.avif</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
@@ -861,7 +882,25 @@
         <nombre>Portimao</nombre>
         <fecha></fecha>
         <bandera>por.png</bandera>
-        <imagen>Bahrain.webp</imagen>
+        <imagen>portimaocircuit.png</imagen>
+        <primero>
+            <piloto>Pepe</piloto>
+            <tiempo>1:31:44.742</tiempo>
+        </primero>
+        <segundo>
+            <piloto>Julian</piloto>
+            <tiempo>+22.457</tiempo>
+        </segundo>
+        <tercero>
+            <piloto>Jorge</piloto>
+            <tiempo>+25.11</tiempo>
+        </tercero>
+    </circuito>
+    <circuito id="25">
+        <nombre>China</nombre>
+        <fecha></fecha>
+        <bandera>china.png</bandera>
+        <imagen>chinacircuit.avif</imagen>
         <primero>
             <piloto>Pepe</piloto>
             <tiempo>1:31:44.742</tiempo>
