@@ -9,7 +9,6 @@
         <link rel="icon" type="image/png" href="../imgs/LogoCopaMojon.png" />
         <link rel="stylesheet" href="../css/index.css" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
-        <script src="../js/index.js"></script>
       </head>
       <body>
         <div>
@@ -212,6 +211,7 @@
           <div class="nav_abajo"></div>
           <div class="logo_copy"></div>
         </footer>
+        <script src="../js/index.js"></script>
       </body>
     </html>
   </xsl:template>
