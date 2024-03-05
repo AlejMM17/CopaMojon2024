@@ -1,32 +1,32 @@
 
 @font-face {
     font-family: 'Titillium Web';
-    src: url(/webs/fonts/TitilliumWeb-Bold.ttf);
+    src: url(/fonts/TitilliumWeb-Bold.ttf);
     font-weight: bold;
     font-style: bold;
   }
   
   @font-face {
     font-family: 'Titillium Web';
-    src: url(/webs/fonts/TitilliumWeb-Regular.ttf);
+    src: url(/fonts/TitilliumWeb-Regular.ttf);
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: 'Titillium Web';
-    src: url(/webs/fonts/TitilliumWeb-SemiBold.ttf);
+    src: url(/fonts/TitilliumWeb-SemiBold.ttf);
     font-weight: 400;
     font-style: 400;
   }
   @font-face {
     font-family: F1Bold;
-    src: url(/webs/fonts/Formula1-Bold_web_0.ttf);
+    src: url(/fonts/Formula1-Bold_web_0.ttf);
     font-weight: bold;
     font-style: bold;
 }
 @font-face {
     font-family: F1Bold;
-    src: url(/webs/fonts/Formula1-Regular_web_0.ttf);
+    src: url(/fonts/Formula1-Regular_web_0.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -128,11 +128,11 @@
 
   }
   .top {
-    width: 100%; /* Ajusta el ancho del contenedor principal */
+    width: 25%; /* Ajusta el ancho del contenedor principal */
     background-color: rgb(29, 28, 28);
     border-radius: 5px;
     height: 40px;
-    margin: 0 0 10px 0;
+    margin: auto auto 10px auto;
     padding: 7px;
     display: flex;
     align-items: center;
@@ -164,65 +164,5 @@ font-weight: bold;
   font-size: 40px;
 }
 .circuitoIMG{
-  margin-top: 100px;
-  width: 25vw;
-}
-.ultimaCarrera {
-  display: flex;
-  width:80%;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
-  margin-top: 40px; /* Ajusta el margen superior según sea necesario */
-  height: 14vw;    
-}
-
-.contenido-izquierda {
-  width: 100%; /* Ajusta el ancho de la columna izquierda según sea necesario */
-  padding: 0 200px; /* Ajusta el espaciado interno */
-}
-
-.contenido-derecha {
-  width: 20%; /* Ajusta el ancho de la columna derecha según sea necesario */
-  text-align: center; /* Centra el contenido dentro de su contenedor */
-}
-
-.centrarIf {
-  display: flex;
-  justify-content: center; /* Centra horizontalmente dentro de su contenedor */
-  align-items: center; /* Centra verticalmente dentro de su contenedor */
-  margin-top: 40px; /* Ajusta el margen superior según sea necesario */
-}
-.tituloN{
-  font-family: F1Bold;
-  font-weight: bold;
-    font-size: 40px;
-  margin-top: 25px;
-  text-align: center;
-  color:#e10600;
-}
-.tituloNo{
-  font-family: F1Bold;
-  font-weight: bold;
-    font-size: 40px;
-  margin-top: 150px;
-  text-align: center;
-  color:#e10600;
-}
-.horarios{
-  margin-top: 150px;
-height: 14vh;
-background-color: rgb(29, 28, 28);
-}
-.noticias{
-  height: 14vh;
-}
-.miniStanding{
-  margin-top: 150px;
-  height: 20vh;
-}
-footer{
-  margin-top: 150px;
-  height: 14vh;
-  background-color: rgb(29, 28, 28);
-  
+  width: 12vw;
 }

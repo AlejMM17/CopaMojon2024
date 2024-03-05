@@ -342,8 +342,8 @@
         <posicion>17</posicion>
         <nombre>Biel</nombre>
         <imagenPiloto>Biel.png</imagenPiloto>
-        <escuderia>McLaren</escuderia>
-        <imagenEscuderia>mclaren.png</imagenEscuderia>
+        <escuderia>Alpha Tauri</escuderia>
+        <imagenEscuderia>alphatauri.png</imagenEscuderia>
         <carreras>
             <australia>-</australia>
             <canada>-</canada>
@@ -382,6 +382,27 @@
     </piloto>
     <piloto number="19">
         <posicion>19</posicion>
+        <nombre>Razvan</nombre>
+        <imagenPiloto></imagenPiloto>
+        <escuderia>Alpha Tauri</escuderia>
+        <imagenEscuderia>alphatauri.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="20">
+        <posicion>20</posicion>
         <nombre>Poke</nombre>
         <imagenPiloto></imagenPiloto>
         <escuderia>Reserva Aston Martin</escuderia>
@@ -401,8 +422,8 @@
             <mexico>-</mexico>
         </carreras>        
     </piloto>
-    <piloto number="20">
-        <posicion>20</posicion>
+    <piloto number="21">
+        <posicion>21</posicion>
         <nombre>Oliver</nombre>
         <imagenPiloto></imagenPiloto>
         <escuderia>Reserva Ferrari</escuderia>
@@ -422,8 +443,8 @@
             <mexico>-</mexico>
         </carreras>        
     </piloto>
-    <piloto number="21">
-        <posicion>21</posicion>
+    <piloto number="22">
+        <posicion>22</posicion>
         <nombre>Gorka</nombre>
         <imagenPiloto>Gorka.png</imagenPiloto>
         <escuderia>Reserva</escuderia>
