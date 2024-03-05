@@ -1,35 +1,35 @@
 /* Fuentes */
 @font-face {
   font-family: 'Titillium Web';
-  src: url(/fonts/TitilliumWeb-Bold.ttf);
+  src: url(/webs/fonts/TitilliumWeb-Bold.ttf);
   font-weight: bold;
   font-style: bold;
 }
 
 @font-face {
   font-family: 'Titillium Web';
-  src: url(/fonts/TitilliumWeb-Regular.ttf);
+  src: url(/webs/fonts/TitilliumWeb-Regular.ttf);
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Titillium Web';
-  src: url(/fonts/TitilliumWeb-SemiBold.ttf);
+  src: url(/webs/fonts/TitilliumWeb-SemiBold.ttf);
   font-weight: 400;
   font-style: 400;
 }
 
 @font-face {
   font-family: F1Bold;
-  src: url(/fonts/Formula1-Bold_web_0.ttf);
+  src: url(/webs/fonts/Formula1-Bold_web_0.ttf);
   font-weight: bold;
   font-style: bold;
 }
 
 @font-face {
   font-family: F1Bold;
-  src: url(/fonts/Formula1-Regular_web_0.ttf);
+  src: url(/webs/fonts/Formula1-Regular_web_0.ttf);
   font-weight: normal;
   font-style: normal;
 }
