@@ -5,12 +5,14 @@
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Página Principal - Copa Mojon</title>
+        <title>Página Principal - Copa Mojón</title>
         <link rel="icon" type="image/png" href="../imgs/LogoCopaMojon.png" />
         <link rel="stylesheet" href="../css/index.css" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+        <script src="../js/index.js"></script>
       </head>
       <body>
+        <div>
         <div class="fia">
           <img src="../imgs/fia.avif" alt="fia_logo" />
           <h3>X</h3>
@@ -18,7 +20,7 @@
         </div>
         <header>
           <div class="titulo">
-            <h1>Copa Mojon 2024</h1>
+            <h1>Copa Mojón 2024</h1>
           </div>
           <nav>
             <ul>
@@ -43,6 +45,7 @@
             </ul>
           </nav>
         </header>
+      </div>
         <section>
           <div class="bienvenida">
             <img src="../imgs/bienvenidofoto1.avif" alt="coche" />
@@ -69,7 +72,7 @@
               </p>
             </div>
           </div>
-          <h3 class="tituloN">Ultima Carrera</h3>
+          <h3 class="tituloN">Última Carrera</h3>
           <div class="ultimaCarrera">
             <xsl:if test="f1/circuito/@id = 1">
             <div class="centrarIf">
@@ -124,38 +127,84 @@
           <div class="noticias">
             <h3 class="tituloNo">NOTICIAS</h3>
             <section>
-              <article>
-                <div>textogrande</div>
-                <div>Imagen</div>
+              <article class="art1"> 
+                <div>
+                  <h4 class="notiTitulo">¡La Esperada Vuelta de la Copa Mojón es una Realidad!</h4> <br/>
+                  <p class="notiTexto">¡Emoción y competencia están de vuelta con la resplandeciente reaparición de la Copa Mojón! Después de una pausa llena de expectativas, los motores vuelven a rugir y los pilotos se preparan para desafiar la pista en la tan esperada temporada de la Copa Mojón. Este emocionante regreso promete momentos de pura adrenalina, estrategias fascinantes y carreras que mantendrán a los fanáticos al borde de sus asientos. ¡Prepárate para sumergirte en la acción de la competición más emocionante del mundo automovilístico, la Copa Mojón está de vuelta para llevar la emoción a nuevos niveles!</p>
+                </div>
+                <div class="notiI1">
+                  <img src="../imgs/parrillaf12.jpeg" alt=""/>
+                </div>
               </article>
-              <div>
+              <div class="notiDual">
                 <article>
-                  <div>texto1</div>
-                  <div>Imagen</div>
+                  <div>
+                    <img src="../imgs/proximamente.png"  alt=""/>
+                  </div>
+                  <div>
+                    <h4>Próximamente</h4> <br/>
+                    <p>Futuras Noticias de la Copa Mojón</p>
+                  </div>
                 </article>             
                 <article>
-                  <div>texto</div>
-                  <div>Imagen</div>
+                  <div>
+                    <img src="../imgs/proximamente.png"  alt=""/>
+                  </div>
+                  <div>
+                    <h4>Próximamente</h4> <br/>
+                    <p>Futuras Noticias de la Copa Mojón</p>
+                  </div>
                 </article>
               </div>
-              <div>
+              <div class="notiDual">
                 <article>
-                  <div>texto</div>
-                  <div>Imagen</div>
+                  <div>
+                    <img src="../imgs/proximamente.png"  alt=""/>
+                  </div>
+                  <div>
+                    <h4>Próximamente</h4> <br/>
+                    <p>Futuras Noticias de la Copa Mojón</p>
+                  </div>
                 </article>
                 <article>
-                  <div>texto</div>
-                  <div>Imagen</div>
-                </article>          
+                  <div>
+                    <img src="../imgs/proximamente.png"  alt=""/>
+                  </div>
+                  <div>
+                    <h4>Próximamente</h4> <br/>
+                    <p>Futuras Noticias de la Copa Mojón</p>
+                  </div>
+                </article>
               </div>
-             
             </section>
           </div>
           <div class="horarios">
-            horarios
+            <h3 class="tituloN">Siguiente Carrera</h3>
+            <h3 class="tempo"><span id="days"></span> días / <span id="hours"></span> horas / <span id="minutes"></span> minutos / <span id="seconds"></span> segundos</h3>
           </div>
           <div class="miniStanding">
-            top
+            <h3 class="tituloN">Standing</h3>
+            <div class="stand">
+              <div class="centrado"></div>
+              <div class="centrado"> 
+                <ul class="listaTop">
+                <xsl:for-each select="/f1/piloto">
+                  <xsl:sort select="sum(carreras/*[. != '-'])" order="descending"/>
+                  <xsl:if test="posicion &lt;= 9">
+                    <li class="standLista">
+                      <div class="valLi">
+                        <h3><xsl:value-of select="posicion" /></h3>
+                        <span class="separator">-</span>
+                        <h3><xsl:value-of select="nombre" /></h3>
+                        <p><xsl:value-of select="sum(carreras/*[. != '-'])" /><span>pts</span></p>
+                      </div>
+                    </li>                  
+                  </xsl:if>
+                </xsl:for-each>
+              </ul>
+            </div>
+              <a class="btn" href="#">Ver Standing completo</a>
+            </div>
           </div>
         </section>
         <footer>
