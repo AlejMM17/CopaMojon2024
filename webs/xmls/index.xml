@@ -2,8 +2,8 @@
 <?xml-stylesheet href="..\xls\index.xsl" type="text/xsl"?>
 
 <f1>
-    <piloto number="2">
-        <posicion>2</posicion>
+    <piloto number="1">
+        <posicion>1</posicion>
         <nombre>Joel</nombre>
         <imagenPiloto>Joel.png</imagenPiloto>
         <escuderia>Ferrari</escuderia>
@@ -23,10 +23,157 @@
             <mexico>-</mexico>
         </carreras>        
     </piloto>
-    <piloto number="1">
-        <posicion>1</posicion>
-        <nombre>Mario</nombre>
-        <imagenPiloto>aus.png</imagenPiloto>
+        <piloto number="2">
+        <posicion>2</posicion>
+        <nombre>Giro</nombre>
+        <imagenPiloto>giro.png</imagenPiloto>
+        <escuderia>Haas</escuderia>
+        <imagenEscuderia>haas.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+        <piloto number="3">
+        <posicion>3</posicion>
+        <nombre>Moha</nombre>
+        <imagenPiloto>IkerMoha.png</imagenPiloto>
+        <escuderia>RedBull</escuderia>
+        <imagenEscuderia>Redbull.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+        <piloto number="4">
+        <posicion>4</posicion>
+        <nombre>Patron</nombre>
+        <imagenPiloto>pauPatron.png</imagenPiloto>
+        <escuderia>Mercedes</escuderia>
+        <imagenEscuderia>mercedes.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+        <piloto number="5">
+        <posicion>5</posicion>
+        <nombre>Teo</nombre>
+        <imagenPiloto>Teo.png</imagenPiloto>
+        <escuderia>Aston Martin</escuderia>
+        <imagenEscuderia>astonmartin.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+        <piloto number="6">
+        <posicion>6</posicion>
+        <nombre>Ibai</nombre>
+        <imagenPiloto>Ibai.png</imagenPiloto>
+        <escuderia>Williams</escuderia>
+        <imagenEscuderia>williamsl.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+        <piloto number="7">
+        <posicion>7</posicion>
+        <nombre>Dymo</nombre>
+        <imagenPiloto>Dylan.png</imagenPiloto>
+        <escuderia>Alpine</escuderia>
+        <imagenEscuderia>alpine.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="8">
+        <posicion>8</posicion>
+        <nombre>Barrosa</nombre>
+        <imagenPiloto>alex.png</imagenPiloto>
+        <escuderia>Alpine</escuderia>
+        <imagenEscuderia>alpine.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="9">
+        <posicion>9</posicion>
+        <nombre>Pol</nombre>
+        <imagenPiloto>pol.png</imagenPiloto>
         <escuderia>Ferrari</escuderia>
         <imagenEscuderia>ferrari.png</imagenEscuderia>
         <carreras>
@@ -44,6 +191,385 @@
             <mexico>-</mexico>
         </carreras>        
     </piloto>
+    <piloto number="10">
+        <posicion>10</posicion>
+        <nombre>Calvo</nombre>
+        <imagenPiloto>calvo.png</imagenPiloto>
+        <escuderia>Mercedes</escuderia>
+        <imagenEscuderia>mercedes.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="11">
+        <posicion>11</posicion>
+        <nombre>Marcel</nombre>
+        <imagenPiloto>MarcelMimi.png</imagenPiloto>
+        <escuderia>RedBull</escuderia>
+        <imagenEscuderia>Redbull.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="12">
+        <posicion>12</posicion>
+        <nombre>Tajes</nombre>
+        <imagenPiloto>IkerGrrr.png</imagenPiloto>
+        <escuderia>McLaren</escuderia>
+        <imagenEscuderia>mclaren.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="13">
+        <posicion>13</posicion>
+        <nombre>Uri</nombre>
+        <imagenPiloto>Oriol.png</imagenPiloto>
+        <escuderia>Williams</escuderia>
+        <imagenEscuderia>williamsl.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="14">
+        <posicion>14</posicion>
+        <nombre>JT</nombre>
+        <imagenPiloto>Danielson.jpeg</imagenPiloto>
+        <escuderia>Aston Martin</escuderia>
+        <imagenEscuderia>astonmartin.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="15">
+        <posicion>15</posicion>
+        <nombre>Daniel</nombre>
+        <imagenPiloto></imagenPiloto>
+        <escuderia>Alfa Romeo</escuderia>
+        <imagenEscuderia>alfaromeojpeg.jpeg</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="16">
+        <posicion>16</posicion>
+        <nombre>Aaron</nombre>
+        <imagenPiloto></imagenPiloto>
+        <escuderia>Alfa Romeo</escuderia>
+        <imagenEscuderia>alfaromeojpeg.jpeg</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="17">
+        <posicion>17</posicion>
+        <nombre>Biel</nombre>
+        <imagenPiloto>Biel.png</imagenPiloto>
+        <escuderia>McLaren</escuderia>
+        <imagenEscuderia>mclaren.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="18">
+        <posicion>18</posicion>
+        <nombre>Coro</nombre>
+        <imagenPiloto>Coro.jpeg</imagenPiloto>
+        <escuderia>Haas</escuderia>
+        <imagenEscuderia>haas.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="19">
+        <posicion>19</posicion>
+        <nombre>Poke</nombre>
+        <imagenPiloto></imagenPiloto>
+        <escuderia>Reserva Aston Martin</escuderia>
+        <imagenEscuderia>astonmartin.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="20">
+        <posicion>20</posicion>
+        <nombre>Oliver</nombre>
+        <imagenPiloto></imagenPiloto>
+        <escuderia>Reserva Ferrari</escuderia>
+        <imagenEscuderia>ferrari.png</imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+    <piloto number="21">
+        <posicion>21</posicion>
+        <nombre>Gorka</nombre>
+        <imagenPiloto>Gorka.png</imagenPiloto>
+        <escuderia>Reserva</escuderia>
+        <imagenEscuderia></imagenEscuderia>
+        <carreras>
+            <australia>-</australia>
+            <canada>-</canada>
+            <singapur>-</singapur>
+            <españa>-</españa>
+            <australia>-</australia>
+            <monaco>-</monaco>
+            <italia>-</italia>
+            <uk>-</uk>
+            <eeuu>-</eeuu>
+            <abu>-</abu>
+            <hungria>-</hungria>
+            <mexico>-</mexico>
+        </carreras>        
+    </piloto>
+
+    <circuito id="1">
+        <nombre>Bahrain</nombre>
+        <fecha></fecha>
+        <bandera>bahrein.png</bandera>
+        <imagen>Bahrain.webp</imagen>
+        <primero>
+            <piloto>Pepe</piloto>
+            <tiempo>1:31:44.742</tiempo>
+        </primero>
+        <segundo>
+            <piloto>Julian</piloto>
+            <tiempo>+22.457</tiempo>
+        </segundo>
+        <tercero>
+            <piloto>Jorge</piloto>
+            <tiempo>+25.11</tiempo>
+        </tercero>
+    </circuito>
+    <circuito id="2">
+        <nombre>Jeddah</nombre>
+        <fecha></fecha>
+        <bandera>bahrein.png</bandera>
+        <imagen>Bahrain.webp</imagen>
+        <primero>
+            <piloto>Pepe</piloto>
+            <tiempo>1:31:44.742</tiempo>
+        </primero>
+        <segundo>
+            <piloto>Julian</piloto>
+            <tiempo>+22.457</tiempo>
+        </segundo>
+        <tercero>
+            <piloto>Jorge</piloto>
+            <tiempo>+25.11</tiempo>
+        </tercero>
+    </circuito>
+    <circuito id="1">
+        <nombre>Bahrain</nombre>
+        <fecha></fecha>
+        <bandera>bahrein.png</bandera>
+        <imagen>Bahrain.webp</imagen>
+        <primero>
+            <piloto>Pepe</piloto>
+            <tiempo>1:31:44.742</tiempo>
+        </primero>
+        <segundo>
+            <piloto>Julian</piloto>
+            <tiempo>+22.457</tiempo>
+        </segundo>
+        <tercero>
+            <piloto>Jorge</piloto>
+            <tiempo>+25.11</tiempo>
+        </tercero>
+    </circuito>
+    <circuito id="1">
+        <nombre>Bahrain</nombre>
+        <fecha></fecha>
+        <bandera>bahrein.png</bandera>
+        <imagen>Bahrain.webp</imagen>
+        <primero>
+            <piloto>Pepe</piloto>
+            <tiempo>1:31:44.742</tiempo>
+        </primero>
+        <segundo>
+            <piloto>Julian</piloto>
+            <tiempo>+22.457</tiempo>
+        </segundo>
+        <tercero>
+            <piloto>Jorge</piloto>
+            <tiempo>+25.11</tiempo>
+        </tercero>
+    </circuito>
+    <circuito id="1">
+        <nombre>Bahrain</nombre>
+        <fecha></fecha>
+        <bandera>bahrein.png</bandera>
+        <imagen>Bahrain.webp</imagen>
+        <primero>
+            <piloto>Pepe</piloto>
+            <tiempo>1:31:44.742</tiempo>
+        </primero>
+        <segundo>
+            <piloto>Julian</piloto>
+            <tiempo>+22.457</tiempo>
+        </segundo>
+        <tercero>
+            <piloto>Jorge</piloto>
+            <tiempo>+25.11</tiempo>
+        </tercero>
+    </circuito>
+    <circuito id="1">
+        <nombre>Bahrain</nombre>
+        <fecha></fecha>
+        <bandera>bahrein.png</bandera>
+        <imagen>Bahrain.webp</imagen>
+        <primero>
+            <piloto>Pepe</piloto>
+            <tiempo>1:31:44.742</tiempo>
+        </primero>
+        <segundo>
+            <piloto>Julian</piloto>
+            <tiempo>+22.457</tiempo>
+        </segundo>
+        <tercero>
+            <piloto>Jorge</piloto>
+            <tiempo>+25.11</tiempo>
+        </tercero>
+    </circuito>
+    <circuito id="1">
+        <nombre>Bahrain</nombre>
+        <fecha></fecha>
+        <bandera>bahrein.png</bandera>
+        <imagen>Bahrain.webp</imagen>
+        <primero>
+            <piloto>Pepe</piloto>
+            <tiempo>1:31:44.742</tiempo>
+        </primero>
+        <segundo>
+            <piloto>Julian</piloto>
+            <tiempo>+22.457</tiempo>
+        </segundo>
+        <tercero>
+            <piloto>Jorge</piloto>
+            <tiempo>+25.11</tiempo>
+        </tercero>
+    </circuito>
     <circuito id="1">
         <nombre>Bahrain</nombre>
         <fecha></fecha>
