@@ -481,3 +481,10 @@ footer {
 }
 /*Acaba footer*/
 
+/*ARHCIVO STANDING*/
+.link>a{
+  text-decoration: none;
+}
+.stanT{
+  margin-top: 0;
+}

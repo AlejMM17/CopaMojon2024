@@ -21,13 +21,13 @@
           <img src="../imgs/LogoCopaMojon.png" alt="" class="logo" />
         </div>
         <header>
-          <div class="titulo">
-            <h1>Copa Mojón 2024</h1>
+          <div class="titulo link">
+            <a href="../../index.html"><h1>Copa Mojón 2024</h1></a>
           </div>
           <nav>
             <ul>
               <li>
-                <a href="standing.html">Clasificacion pilotos</a>
+                <a href="../html/standing.html">Clasificacion pilotos</a>
               </li>
               <li>
                 <a href="#">Clasificacion escuderias</a>
@@ -49,7 +49,7 @@
         </header>
       </div>
         <section>
-          <div class="miniStanding">
+          <div class="miniStanding stanT">
             <h3 class="tituloN">Standing</h3>
             <div class="stand">
               <div class="centrado"></div>
@@ -70,7 +70,6 @@
                 </xsl:for-each>
               </ul>
             </div>
-              <a class="btn" href="#">Ver Standing completo</a>
             </div>
           </div>
         </section>
@@ -81,7 +80,7 @@
             <a href=""><i class='bx bxl-instagram'></i></a>
           </div>
           <div class="nav_abajo">
-            <a href="standing.html">Clasificacion pilotos</a>
+            <a href="../html/standing.html">Clasificacion pilotos</a>
             <a href="#">Clasificacion escuderias</a>
             <a href="#">Horarios</a>
             <a href="#">Estadisticas generales</a>

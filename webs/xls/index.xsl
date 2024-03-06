@@ -27,7 +27,7 @@
           <nav>
             <ul>
               <li>
-                <a href="#">Clasificacion pilotos</a>
+                <a href="../html/standing.html">Clasificacion pilotos</a>
               </li>
               <li>
                 <a href="#">Clasificacion escuderias</a>
@@ -205,7 +205,7 @@
                 </xsl:for-each>
               </ul>
             </div>
-              <a class="btn" href="#">Ver Standing completo</a>
+              <a class="btn" href="../html/standing.html">Ver Standing completo</a>
             </div>
           </div>
         </section>
@@ -216,7 +216,7 @@
             <a href=""><i class='bx bxl-instagram'></i></a>
           </div>
           <div class="nav_abajo">
-            <a href="#">Clasificacion pilotos</a>
+            <a href="../html/standing.html">Clasificacion pilotos</a>
             <a href="#">Clasificacion escuderias</a>
             <a href="#">Horarios</a>
             <a href="#">Estadisticas generales</a>
