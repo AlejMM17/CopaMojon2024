@@ -21,8 +21,8 @@
           <img src="../imgs/LogoCopaMojon.png" alt="" class="logo" />
         </div>
         <header>
-          <div class="titulo">
-            <h1>Copa Mojón 2024</h1>
+          <div class="titulo link">
+            <a href="../../index.html"><h1>Copa Mojón 2024</h1></a>
           </div>
           <nav>
             <ul>
