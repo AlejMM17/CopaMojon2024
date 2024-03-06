@@ -393,12 +393,13 @@ margin: 25px auto;
   position: absolute; 
   right: 10px; 
 }
-h5{
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 14px;
-  color: #555; 
-  padding: 3px;
-  margin-left: 10px;
+.standLista h5{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    color: #555; 
+    padding: 3px;
+    margin-left: 10px;
+  
 }
 .valLi {
   width: 100%;
