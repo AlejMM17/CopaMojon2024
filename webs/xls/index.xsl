@@ -198,7 +198,8 @@
                         <h3><xsl:value-of select="posicion" /></h3>
                         <span class="separator">-</span>
                         <h3><xsl:value-of select="nombre" /></h3>
-                        <p><xsl:value-of select="sum(carreras/*[. != '-'])" /><span>pts</span></p>
+                        <h5><xsl:value-of select="escuderia"/></h5>
+                        <p><xsl:value-of select="sum(carreras/*[. != '-'])" /><span>PTS</span></p>
                       </div>
                     </li>                  
                   </xsl:if>
