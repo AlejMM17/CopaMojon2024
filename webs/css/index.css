@@ -41,7 +41,7 @@
 }
 
 /* Estilos generales de texto */
-h1, a, h3, h2, p {
+h1, a, h3, h2, p ,h5{
   font-family: 'Titillium Web', sans-serif;
   color: white;
 }
@@ -382,6 +382,12 @@ margin: 25px auto;
 .standLista:hover h3 {
   color: white;
 }
+.standLista h5{
+  font-size: 14px;
+  color: #555; 
+  padding: 3px;
+  margin-left: 10px;
+}
 .standLista p {
   font-size: 14px;
   color: #555; 
@@ -392,14 +398,6 @@ margin: 25px auto;
   margin: 0; 
   position: absolute; 
   right: 10px; 
-}
-.standLista h5{
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 14px;
-    color: #555; 
-    padding: 3px;
-    margin-left: 10px;
-  
 }
 .valLi {
   width: 100%;
