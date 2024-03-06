@@ -314,7 +314,7 @@ nav {
 }
 .art1:hover h4,
 .notiDual>article:hover h4 {
-  color: red; /* Cambia el color a rojo cuando se pasa el mouse */
+  color: red; 
 }
 /*Acaba noticias*/
 /*Horarios*/
@@ -336,6 +336,7 @@ nav {
 .miniStanding {
   margin-top: 100px;
   text-align: center;
+  padding-bottom: 50px;
 }
 .stand{
   margin-top: 50px;
@@ -343,12 +344,12 @@ nav {
   justify-content: center;
   align-items: center;
   width: 80%;
-  margin: 0 auto; /* Centra el contenedor */
+  margin: 0 auto; 
 }
 .listaTop{
 width: 50vw;
-list-style: none; /* Elimina los estilos de la lista predeterminados */
-padding: 0; /* Elimina el relleno predeterminado de la lista */
+list-style: none; 
+padding: 0; 
 margin: 25px auto;
 }
 
@@ -357,15 +358,15 @@ margin: 25px auto;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 10px;
-  background-color: #f0f0f0; /* Color de fondo para resaltar */
+  background-color: #f0f0f0;
   padding: 4px;
   border-radius: 5px;
-  position: relative; /* Añade esta propiedad para usar position:absolute en el elemento p */
+  position: relative; 
   transition: all 0.5s;
 }
 
 .standLista:hover {
-  background-color: rgb(29, 28, 28); /* Cambia el fondo al pasar el mouse */
+  background-color: rgb(29, 28, 28); 
   color: white;
   cursor: pointer;
 }
@@ -374,8 +375,8 @@ margin: 25px auto;
   font-family: F1Bold;
   font-weight: bold;
   font-size: 18px;
-  color: #333; /* Color del texto */
-  margin: 0; /* Elimina el margen predeterminado */
+  color: #333; 
+  margin: 0; 
   transition: all 0.5s;
 }
 .standLista:hover h3 {
@@ -383,14 +384,14 @@ margin: 25px auto;
 }
 .standLista p {
   font-size: 14px;
-  color: #555; /* Color del texto */
+  color: #555; 
   background-color: #d5d5d5;
   padding: 3px;
   border-radius: 10px;
   text-align: right;
-  margin: 0; /* Elimina el margen predeterminado */
-  position: absolute; /* Permite posicionar el elemento de forma absoluta */
-  right: 10px; /* Ajusta según sea necesario */
+  margin: 0; 
+  position: absolute; 
+  right: 10px; 
 }
 
 .valLi {
@@ -398,10 +399,10 @@ margin: 25px auto;
   display: flex;
   padding: 10px;
   margin-bottom: 10px;
-  position: relative; /* Añade esta propiedad para usar position:absolute en el elemento p */
+  position: relative; 
 }
 .valLi .separator {
-  margin: 0 5px; /* Ajusta el espacio entre la posición y el nombre según sea necesario */
+  margin: 0 5px; 
 }
 .btn {
   -webkit-font-smoothing: antialiased;
@@ -435,10 +436,48 @@ margin: 25px auto;
 
 /*footer*/
 footer {
-  margin-top: 150px;
-  height: 14vh;
-  background-color: rgb(29, 28, 28);
+  background-color: #1d1c1c;
+  padding: 20px 0;
+  text-align: center;
 }
 
+.iconos {
+  margin-bottom: 20px;
+}
+
+.iconos a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.nav_abajo {
+  margin-bottom: 20px;
+}
+
+.nav_abajo a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin: 0 15px;
+  transition: all 0.3s ease;
+}
+
+.nav_abajo a:hover {
+  color: #e10600;
+}
+
+.logo_copy {
+  color: white;
+  font-size: 12px;
+}
+.bx{
+  color: white;
+  transition: all 0.5s ease;
+}
+.bx:hover{
+  color:#d5d5d5;
+}
 /*Acaba footer*/
 

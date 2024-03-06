@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xsl:stylesheet [
+  <!ENTITY copy "entity-value">
+]>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="/">
     <html lang="es">
@@ -207,10 +210,24 @@
           </div>
         </section>
         <footer>
-          <div class="iconos"></div>
-          <div class="nav_abajo"></div>
-          <div class="logo_copy"></div>
+          <div class="iconos">
+            <a href=""><i class='bx bxl-tiktok'></i></a>
+            <a href=""><i class='bx bxl-twitter'></i></a>
+            <a href=""><i class='bx bxl-instagram'></i></a>
+          </div>
+          <div class="nav_abajo">
+            <a href="#">Clasificacion pilotos</a>
+            <a href="#">Clasificacion escuderias</a>
+            <a href="#">Horarios</a>
+            <a href="#">Estadisticas generales</a>
+            <a href="#">Superlicencias</a>
+            <a href="#">Info y reglas</a>
+          </div>
+          <div class="logo_copy">
+            <p>©2024 Copa Mojón - Todos los derechos reservados</p>
+          </div>
         </footer>
+        
         <script src="../js/index.js"></script>
       </body>
     </html>
