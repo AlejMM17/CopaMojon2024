@@ -330,6 +330,10 @@ nav {
   color: rgb(29, 28, 28);
   
 }
+.horarioCM{
+  color: black;
+  font-family: F1Bold;
+}
 /*Acaba horarios*/
 
 /*Mini Standing*/
@@ -491,4 +495,76 @@ footer {
 }
 .stanT{
   margin-top: 0;
+}
+
+/*Horarios*/
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.row:hover {
+  background-color: #f5f5f5;
+  transition: all 1s;
+}
+
+.row--details {
+  padding: 10px;
+  background-color: #f5f5f5;
+  display: none;
+}
+
+.cell {
+  padding: 10px;
+  flex: 1;
+}
+
+.cell--header {
+  font-weight: bold;
+  font-family: F1Bold;
+
+}
+
+.cell--content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: F1Bold;
+}
+
+/** clases js **/
+
+.show{
+  display: block;
+  animation: show 2s ease;
+}
+.unshow{
+  animation: unshow 2s ease;
+}
+
+@keyframes show {
+  0%{
+    opacity: 0;
+  }  
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes unshow {
+  0%{
+    opacity: 1;
+  }  
+  100%{
+    opacity: 0;
+    width: 0;
+  }
 }
