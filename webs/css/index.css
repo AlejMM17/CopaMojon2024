@@ -548,7 +548,7 @@ footer {
   animation: show 2s ease;
 }
 .unshow{
-  animation: unshow 2s ease;
+  animation: unshow 1s ease;
 }
 
 @keyframes show {
