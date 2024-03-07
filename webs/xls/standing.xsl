@@ -21,32 +21,24 @@
           <img src="../imgs/LogoCopaMojon.png" alt="" class="logo" />
         </div>
         <header>
-          <div class="titulo link">
-            <a href="../../index.html"><h1>Copa Mojón 2024</h1></a>
-          </div>
-          <nav>
-            <ul>
-              <li>
-                <a href="../html/standing.html">Clasificacion pilotos</a>
-              </li>
-              <li>
-                <a href="#">Clasificacion escuderias</a>
-              </li>
-              <li>
-                <a href="#">Horarios</a>
-              </li>
-              <li>
-                <a href="#">Estadisticas generales</a>
-              </li>
-              <li>
-                <a href="#">Superlicencias</a>
-              </li>
-              <li>
-                <a href="#">Info y reglas</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
+                <div class="titulo link"><a href="../../index.html">
+                        <h1>Copa Mojón 2024</h1></a></div>
+                <nav>
+                    <ul>
+                        <li><a href="standing.html">Clasificacion
+                                pilotos</a></li>
+                        <li><a href="#">Clasificacion escuderias</a></li>
+                        <li><a href="scheudle.html">Horarios</a></li>
+                        <li><a href="#">Estadisticas generales</a></li>
+                        <li><a href="#">Superlicencias</a></li>
+                        <li><a href="#">Info y reglas</a></li>
+                        <li><a href="https://www.twitch.tv/extremsito"
+                                target="_blank"><img
+                                    src="../imgs/twitch.jpg" alt="20"
+                                    width="20"/>Directo</a></li>
+                    </ul>
+                </nav>
+            </header>
       </div>
         <section>
           <div class="miniStanding stanT">
@@ -83,7 +75,7 @@
           <div class="nav_abajo">
             <a href="../html/standing.html">Clasificacion pilotos</a>
             <a href="#">Clasificacion escuderias</a>
-            <a href="#">Horarios</a>
+            <a href="../html/scheudle.html">Horarios</a>
             <a href="#">Estadisticas generales</a>
             <a href="#">Superlicencias</a>
             <a href="#">Info y reglas</a>
