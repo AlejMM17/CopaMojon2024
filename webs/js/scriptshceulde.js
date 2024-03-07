@@ -1,5 +1,5 @@
+const elements = document.querySelectorAll(".row--details");
 function toggleRow(row) {
-    const elements = document.querySelectorAll(".row--details");
     for(let i = 0; i < elements.length; i++){
         if(elements[i].classList.contains("show")){
             elements[i].classList.add("unshow");
