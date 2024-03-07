@@ -1,39 +1,37 @@
-/*
-const elements = document.querySelectorAll(".row--details");
 function toggleRow(row) {
-    for(let i = 0; i < elements.length; i++){
-        if(elements[i].classList.contains("show")){
-            elements[i].classList.add("unshow");
-            setTimeout(() => {
-                elements[i].classList.remove("show");
-            }, 600)
-        }
-    }
-
-
-    for(let i = 0; i < elements.length; i++){
-            elements[i].classList.remove("unshow");
-    }
-
-    details.classList.toggle("show");
-  }
-  */
-  function toggleRow(row) {
     const elements = document.querySelectorAll(".row--details");
 
-    for (let i = 0; i < elements.length; i++) {
-        if (elements[i].classList.contains("show") && elements[i] !== row.nextElementSibling) {
-            elements[i].classList.add("unshow");
-            setTimeout(() => {
-                elements[i].classList.remove("show", "unshow");
-            }, 600);
+    elements.forEach(element => {
+        if (element.classList.contains("show") && element !== row.nextElementSibling) {
+            element.addEventListener("animationend", function () {
+                element.classList.remove("show", "unshow");
+            }, { once: true });
+
+            element.classList.add("unshow");
         }
-    }
+    });
 
     const details = row.nextElementSibling;
     if (details && details.classList.contains("row--details")) {
         details.classList.toggle("show");
-        row.removeAttribute("onclick");
+
+        // Quitar el evento de clic para evitar problemas
+        row.removeEventListener("click", rowClickHandler);
+
+        // Agregar el evento de clic solo si la animación show se completa
+        if (details.classList.contains("show")) {
+            row.addEventListener("click", rowClickHandler, { once: true });
+        }
     }
 }
 
+// Función de control para el evento de clic en la fila
+function rowClickHandler() {
+    toggleRow(this);
+}
+
+// Agrega el evento de clic a todas las filas
+const rows = document.querySelectorAll(".row");
+rows.forEach(row => {
+    row.addEventListener("click", rowClickHandler);
+});
