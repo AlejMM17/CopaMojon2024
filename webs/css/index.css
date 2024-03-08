@@ -394,7 +394,10 @@ article:hover {
   color: white;
   cursor: pointer;
 }
-
+.espacio{
+  height: 10vh;
+  display: inline-block;
+}
 .standLista h3 {
   font-family: F1Bold;
   font-weight: bold;
@@ -466,7 +469,9 @@ article:hover {
 }
 
 /*Acaba ministanding*/
-
+.separacion{
+  padding-top: 60px;
+}
 
 
 /*footer*/
@@ -529,9 +534,7 @@ footer {
 }
 
 /*Horarios*/
-.separacion{
-  padding-top: 60px;
-}
+
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -584,10 +587,7 @@ footer {
   display: block;
 }
 
-.espacio{
-  height: 10vh;
-  display: inline-block;
-}
+
 
 @keyframes show {
   0% {
