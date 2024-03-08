@@ -540,15 +540,13 @@ footer {
   text-overflow: ellipsis;
   font-family: F1Bold;
 }
-
-/** clases js **/
-
 .show{
   display: block;
   animation: show 2s ease;
 }
 .unshow{
   animation: unshow 1s ease;
+  display: block;
 }
 
 @keyframes show {
