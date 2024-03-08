@@ -566,7 +566,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 1081px) {
+@media screen and (max-width: 1080px) {
   /* Fuentes */
   @font-face {
     font-family: 'Titillium Web';
