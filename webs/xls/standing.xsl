@@ -31,7 +31,7 @@
                         <li><a href="scheudle.html">Horarios</a></li>
                         <li><a href="#">Estadisticas generales</a></li>
                         <li><a href="#">Superlicencias</a></li>
-                        <li><a href="#">Info y reglas</a></li>
+                        <li><a href="rules.html">Info y reglas</a></li>
                         <li><a href="https://www.twitch.tv/extremsito"
                                 target="_blank"><img
                                     src="../imgs/twitch.jpg" alt="20"
