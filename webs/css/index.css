@@ -565,3 +565,284 @@ footer {
     opacity: 0;
   }
 }
+
+@media screen and (max-width: 1081px) {
+  /* Fuentes */
+  @font-face {
+    font-family: 'Titillium Web';
+    src: url(../fonts/TitilliumWeb-Bold.ttf);
+    font-weight: bold;
+    font-style: bold;
+  }
+
+  @font-face {
+    font-family: 'Titillium Web';
+    src: url(../fonts/TitilliumWeb-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Titillium Web';
+    src: url(../fonts/TitilliumWeb-SemiBold.ttf);
+    font-weight: 400;
+    font-style: 400;
+  }
+
+  @font-face {
+    font-family: F1Bold;
+    src: url(../fonts/Formula1-Bold_web_0.ttf);
+    font-weight: bold;
+    font-style: bold;
+  }
+
+  @font-face {
+    font-family: F1Bold;
+    src: url(../fonts/Formula1-Regular_web_0.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /* Reset de márgenes y padding */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Estilos generales de texto */
+  h1, a, h3, h2, p ,h5{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+  }
+
+  h1, h2, h4 {
+    font-weight: bold;
+  }
+
+  a, h3 {
+    font-weight: 400;
+  }
+
+  p , h5{
+    font-weight: normal;
+  }
+
+  h3 {
+    color: black;
+  }
+
+  h4 {
+    font-family: F1Bold;
+    font-weight: bold;
+    color: white;
+  }
+
+  /* Estilos de lista */
+  li {
+    display: inline-block;
+  }
+
+  li > a {
+    font-size: 1.2em;
+  }
+
+  /* Estilos de enlaces */
+  li>a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    display: block;
+    padding: 30px;
+  }
+
+  li>a:hover {
+    background-color: black;
+  }
+
+  /* Estilos de encabezado */
+
+  header {
+    background-color: #e10600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titulo {
+    margin-right: 5%;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  /* Estilos del logotipo y encabezado */
+  .fia {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    opacity: 0.6;
+  }
+
+  .fia > h3 {
+    opacity: 0.6;
+  }
+
+  .fia > img {
+    height: 50px;
+    margin: 12px;
+    opacity: 0.4;
+    width: auto;
+  }
+
+  /* Estilos de la sección de bienvenida */
+  .bienvenida {
+    background-color: rgb(29, 28, 28);
+    height: 400px;
+    display: flex;
+  }
+
+  .bienvenida h2 {
+    font-size: 34px;
+  }
+
+  .bienvenida p {
+    font-size: 18px;
+  }
+
+  .bienvenida div {
+    margin: auto;
+    width: 70%;
+  }
+
+  .bienvenida > img {
+    height: 14vw;
+    border-radius: 20px;
+    margin: auto;
+  }
+
+  /* Estilos de la sección de última carrera */
+  .top {
+    width: 100%;
+    background-color: rgb(29, 28, 28);
+    border-radius: 5px;
+    height: 40px;
+    margin: 0 0 10px 0;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+  }
+
+  .piloto-tiempo {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .tiempo {
+    font-size: 16px;
+    background-color: rgba(244, 244, 244, 0.356);
+    border-radius: 20px;
+    padding: 2px;
+  }
+
+  .bx {
+    font-size: 50px;
+  }
+
+  .polenombre {
+    font-family: F1Bold;
+    font-weight: bold;
+    font-size: 14px;
+    margin: auto 0;
+  }
+
+  .circuitoN {
+    font-family: F1Bold;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .circuitoIMG {
+    margin-top: 100px;
+    width: 25vw;
+  }
+
+  .ultimaCarrera {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 14vw;
+  }
+
+  .contenido-izquierda {
+    width: 100%;
+    padding: 0 200px;
+  }
+
+  .contenido-derecha {
+    width: 20%;
+    text-align: center;
+  }
+
+  .centrarIf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .tituloN {
+    font-family: F1Bold;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 25px;
+    text-align: center;
+    color: #e10600;
+    text-decoration: underline;
+  }
+
+  .tituloNo {
+    font-family: F1Bold;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 150px;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+
+  }
+
+  /* Estilos de la sección de noticias */
+  .noticias {
+    background-color: rgb(29, 28, 28);
+  }
+
+  .notiTitulo {
+    color: white;
+    font-family: F1Bold;
+    font-weight: bold;
+    font-size: 26px;
+  }
+
+  .art1 {
+    padding: 30px;
+    width: 70%;
+    margin: 40px auto;
+    border: 3px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    border-radius: 4px;
+    transition: all 1s;
+  }
+  .notiDual>article {
+    width: 30%;
+  }
+}
