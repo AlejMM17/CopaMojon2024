@@ -8,7 +8,7 @@
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Página Principal - Copa Mojón</title>
+        <title>Standing Pìlotos - Copa Mojón</title>
         <link rel="icon" type="image/png" href="../imgs/LogoCopaMojon.png" />
         <link rel="stylesheet" href="../css/index.css" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
@@ -27,7 +27,7 @@
                     <ul>
                         <li><a href="standing.html">Clasificacion
                                 pilotos</a></li>
-                        <li><a href="#">Clasificacion escuderias</a></li>
+                        <li><a href="standingEscuderias.html">Clasificacion escuderias</a></li>
                         <li><a href="scheudle.html">Horarios</a></li>
                         <li><a href="#">Estadisticas generales</a></li>
                         <li><a href="#">Superlicencias</a></li>
@@ -71,7 +71,7 @@
 
           <div class="nav_abajo">
             <a href="standing.html">Clasificacion pilotos</a>
-            <a href="#">Clasificacion escuderias</a>
+            <a href="standingEscuderias.html">Clasificacion escuderias</a>
             <a href="scheudle.html">Horarios</a>
             <a href="#">Estadisticas generales</a>
             <a href="#">Superlicencias</a>

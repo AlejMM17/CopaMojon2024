@@ -27,7 +27,7 @@
               <ul>
                   <li><a href="webs/html/standing.html">Clasificacion
                           pilotos</a></li>
-                  <li><a href="#">Clasificacion escuderias</a></li>
+                  <li><a href="webs/html/standingEscuderias.html">Clasificacion escuderias</a></li>
                   <li><a href="webs/html/scheudle.html">Horarios</a></li>
                   <li><a href="#">Estadisticas generales</a></li>
                   <li><a href="#">Superlicencias</a></li>
@@ -209,7 +209,7 @@
 
           <div class="nav_abajo">
             <a href="webs/html/standing.html">Clasificacion pilotos</a>
-            <a href="#">Clasificacion escuderias</a>
+            <a href="webs/html/standingEscuderias.html">Clasificacion escuderias</a>
             <a href="webs/html/scheudle.html">Horarios</a>
             <a href="#">Estadisticas generales</a>
             <a href="#">Superlicencias</a>
