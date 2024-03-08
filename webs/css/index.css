@@ -578,7 +578,7 @@ footer {
 }
 
 .show {
-  display: block;
+  display: block !important;
   animation: show 2s ease;
 }
 
@@ -586,6 +586,25 @@ footer {
   animation: unshow 1s ease;
   display: block;
 }
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes unshow {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 /*reglas*/
 .reglas{
   width: 70%;
@@ -627,22 +646,3 @@ footer {
   display: none;
 }
 /*reglas fin*/
-@keyframes show {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes unshow {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}

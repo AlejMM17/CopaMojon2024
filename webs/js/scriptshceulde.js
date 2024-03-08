@@ -84,25 +84,31 @@
 //     }
 //   }
 // Add the event listener for the rows only once when the page loads
-document.querySelectorAll(".row").forEach(row => {
-    row.addEventListener("click", rowClickHandler);
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll(".row").forEach(row => {
+      row.addEventListener("click", rowClickHandler);
   });
-  
-  function rowClickHandler(event) {
-    toggleRow(event.target.closest(".row"));
+});
+
+document.querySelectorAll(".row").forEach(row => {
+  row.addEventListener("click", rowClickHandler);
+});
+
+function rowClickHandler(event) {
+  toggleRow(event.target.closest(".row"));
+}
+
+function toggleRow(row) {
+  const elements = document.querySelectorAll(".row--details");
+
+  // Remove the 'show' class from all elements
+  elements.forEach(element => {
+    element.classList.remove("show");
+  });
+
+  const details = row.nextElementSibling;
+  if (details && details.classList.contains("row--details")) {
+    // Toggle the 'show' class only for the related details element
+    details.classList.toggle("show");
   }
-  
-  function toggleRow(row) {
-    const elements = document.querySelectorAll(".row--details");
-  
-    // Remove the 'show' class from all elements
-    elements.forEach(element => {
-      element.classList.remove("show");
-    });
-  
-    const details = row.nextElementSibling;
-    if (details && details.classList.contains("row--details")) {
-      // Toggle the 'show' class only for the related details element
-      details.classList.toggle("show");
-    }
-  }
+}
