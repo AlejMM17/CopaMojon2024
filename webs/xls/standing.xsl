@@ -67,11 +67,8 @@
           </div>
         </section>
         <footer>
-          <div class="iconos">
-            <a href=""><i class='bx bxl-tiktok'></i></a>
-            <a href=""><i class='bx bxl-twitter'></i></a>
-            <a href=""><i class='bx bxl-instagram'></i></a>
-          </div>
+          <div class="iconos"><a href="https://www.tiktok.com/@copamojon?lang=es" target="_blank"><i class="bx bxl-tiktok"></i></a><a href="https://twitter.com/CopaMojon" target="_blank"><i class="bx bxl-twitter"></i></a><a href="https://www.youtube.com/@Orpa55" target="_blank"><i class="bx bxl-youtube"></i></a></div>
+
           <div class="nav_abajo">
             <a href="standing.html">Clasificacion pilotos</a>
             <a href="#">Clasificacion escuderias</a>

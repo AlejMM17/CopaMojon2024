@@ -68,11 +68,12 @@
           </div>
           <h3 class="tituloN">Última Carrera</h3>
           <div class="ultimaCarrera">
-            <xsl:if test="f1/circuito/@id = 1">
+            <xsl:for-each select="f1/circuito">
+            <xsl:if test="@id = '1'">
             <div class="centrarIf">
               <div class="contenido-izquierda">
                 <h3 class="circuitoN">
-                  <xsl:value-of select="f1/circuito/nombre" />
+                  <xsl:value-of select="nombre" />
                 </h3>
                 <br/>
                 <br/>
@@ -80,10 +81,10 @@
                   <i class='bx bx-signal-1' style="color:#3671C6"></i>
                   <div class="piloto-tiempo">
                     <p class="polenombre">
-                      <xsl:value-of select="f1/circuito/primero/piloto" />
+                      <xsl:value-of select="primero/piloto" />
                     </p>
                     <p class="tiempo">
-                      <xsl:value-of select="f1/circuito/primero/tiempo" />
+                      <xsl:value-of select="primero/tiempo" />
                     </p>
                   </div>
                 </div>
@@ -92,10 +93,10 @@
                   <i class='bx bx-signal-2' style="color:#3671C6"></i>
                   <div class="piloto-tiempo">
                     <p class="polenombre">
-                      <xsl:value-of select="f1/circuito/segundo/piloto" />
+                      <xsl:value-of select="segundo/piloto" />
                     </p>
                     <p class="tiempo">
-                      <xsl:value-of select="f1/circuito/segundo/tiempo" />
+                      <xsl:value-of select="segundo/tiempo" />
                     </p>
                   </div>
                 </div>
@@ -104,19 +105,20 @@
                   <i class='bx bx-signal-3' style="color:#E8002D"></i>
                   <div class="piloto-tiempo">
                     <p class="polenombre">
-                      <xsl:value-of select="f1/circuito/tercero/piloto" />
+                      <xsl:value-of select="tercero/piloto" />
                     </p>
                     <p class="tiempo">
-                      <xsl:value-of select="f1/circuito/tercero/tiempo" />
+                      <xsl:value-of select="tercero/tiempo" />
                     </p>
                   </div>
                 </div>
               </div>
               <div class="contenido-derecha">
-              <img src="../imgs/{f1/circuito/imagen}" class="circuitoIMG" />
+              <img src="../imgs/{imagen}" class="circuitoIMG" />
             </div>
           </div>
             </xsl:if>
+          </xsl:for-each>
           </div>
           <div class="noticias">
             <h3 class="tituloNo">NOTICIAS</h3>
@@ -203,11 +205,8 @@
           </div>
         </section>
         <footer>
-          <div class="iconos">
-            <a href=""><i class='bx bxl-tiktok'></i></a>
-            <a href=""><i class='bx bxl-twitter'></i></a>
-            <a href=""><i class='bx bxl-instagram'></i></a>
-          </div>
+          <div class="iconos"><a href="https://www.tiktok.com/@copamojon?lang=es" target="_blank"><i class="bx bxl-tiktok"></i></a><a href="https://twitter.com/CopaMojon" target="_blank"><i class="bx bxl-twitter"></i></a><a href="https://www.youtube.com/@Orpa55" target="_blank"><i class="bx bxl-youtube"></i></a></div>
+
           <div class="nav_abajo">
             <a href="webs/html/standing.html">Clasificacion pilotos</a>
             <a href="#">Clasificacion escuderias</a>

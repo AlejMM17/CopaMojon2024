@@ -902,16 +902,16 @@
         <bandera>china.png</bandera>
         <imagen>chinacircuit.avif</imagen>
         <primero>
-            <piloto>Pepe</piloto>
-            <tiempo>1:31:44.742</tiempo>
+            <piloto>Nil</piloto>
+            <tiempo>1:00:12.742</tiempo>
         </primero>
         <segundo>
-            <piloto>Julian</piloto>
-            <tiempo>+22.457</tiempo>
+            <piloto>Chansu</piloto>
+            <tiempo>+40.457</tiempo>
         </segundo>
         <tercero>
-            <piloto>Jorge</piloto>
-            <tiempo>+25.11</tiempo>
+            <piloto>Alejandro</piloto>
+            <tiempo>+79.11</tiempo>
         </tercero>
     </circuito>
 </f1>
