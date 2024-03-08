@@ -642,6 +642,9 @@ footer {
   color: #555;
   cursor: pointer;
 }
+.espNorm{
+  height: 46vh;
+}
 .row--details {
   display: none;
 }
