@@ -31,7 +31,7 @@
                   <li><a href="webs/html/scheudle.html">Horarios</a></li>
                   <li><a href="#">Estadisticas generales</a></li>
                   <li><a href="#">Superlicencias</a></li>
-                  <li><a href="#">Info y reglas</a></li>
+                  <li><a href="webs/html/rules.html">Info y reglas</a></li>
                   <li><a href="https://www.twitch.tv/extremsito"
                           target="_blank"><img
                               src="webs/imgs/twitch.jpg" alt="20"
@@ -214,7 +214,7 @@
             <a href="webs/html/scheudle.html">Horarios</a>
             <a href="#">Estadisticas generales</a>
             <a href="#">Superlicencias</a>
-            <a href="#">Info y reglas</a>
+            <a href="webs/html/rules.html">Info y reglas</a>
           </div>
           <div class="logo_copy">
             <p>©2024 Copa Mojón - Todos los derechos reservados</p>

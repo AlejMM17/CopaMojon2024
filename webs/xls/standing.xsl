@@ -73,12 +73,12 @@
             <a href=""><i class='bx bxl-instagram'></i></a>
           </div>
           <div class="nav_abajo">
-            <a href="../html/standing.html">Clasificacion pilotos</a>
+            <a href="standing.html">Clasificacion pilotos</a>
             <a href="#">Clasificacion escuderias</a>
-            <a href="../html/scheudle.html">Horarios</a>
+            <a href="scheudle.html">Horarios</a>
             <a href="#">Estadisticas generales</a>
             <a href="#">Superlicencias</a>
-            <a href="#">Info y reglas</a>
+            <a href="rules.html">Info y reglas</a>
           </div>
           <div class="logo_copy">
             <p>©2024 Copa Mojón - Todos los derechos reservados</p>

@@ -395,7 +395,7 @@ article:hover {
   cursor: pointer;
 }
 .espacio{
-  height: 10vh;
+  height: 18vh;
   display: inline-block;
 }
 .standLista h3 {
@@ -586,9 +586,47 @@ footer {
   animation: unshow 1s ease;
   display: block;
 }
+/*reglas*/
+.reglas{
+  width: 70%;
+  max-width: 1000px;
+  text-align: justify;
+}
+.reglas p{
+  color: #1d1c1c;
+  font-size: 1.2em;
+  
+}
+.reglas h3{
+  font-family: F1BOLD;
+  padding-left: 0;
+  font-size: 2em;
+  padding-bottom: 15px;
+  padding-top: 20px;
 
-
-
+}
+.reglas h2{
+  color:#1d1c1c;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: underline;
+  font-family: F1BOLD;
+  font-weight: bold;
+  font-size: 2.5em;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+  transition: all 0.2s;
+}
+.reglas h2:hover{
+  color: #555;
+  cursor: pointer;
+}
+.row--details {
+  display: none;
+}
+/*reglas fin*/
 @keyframes show {
   0% {
     opacity: 0;
