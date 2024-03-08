@@ -529,7 +529,9 @@ footer {
 }
 
 /*Horarios*/
-
+.separacion{
+  padding-top: 60px;
+}
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -580,6 +582,11 @@ footer {
 .unshow {
   animation: unshow 1s ease;
   display: block;
+}
+
+.espacio{
+  height: 10vh;
+  display: inline-block;
 }
 
 @keyframes show {
