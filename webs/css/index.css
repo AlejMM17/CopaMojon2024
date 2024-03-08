@@ -41,20 +41,29 @@
 }
 
 /* Estilos generales de texto */
-h1, a, h3, h2, p ,h5{
+h1,
+a,
+h3,
+h2,
+p,
+h5 {
   font-family: 'Titillium Web', sans-serif;
   color: white;
 }
 
-h1, h2, h4 {
+h1,
+h2,
+h4 {
   font-weight: bold;
 }
 
-a, h3 {
+a,
+h3 {
   font-weight: 400;
 }
 
-p , h5{
+p,
+h5 {
   font-weight: normal;
 }
 
@@ -73,7 +82,7 @@ li {
   display: inline-block;
 }
 
-li > a {
+li>a {
   font-size: 1.2em;
 }
 
@@ -119,11 +128,11 @@ nav {
   opacity: 0.6;
 }
 
-.fia > h3 {
+.fia>h3 {
   opacity: 0.6;
 }
 
-.fia > img {
+.fia>img {
   height: 50px;
   margin: 12px;
   opacity: 0.4;
@@ -150,7 +159,7 @@ nav {
   width: 70%;
 }
 
-.bienvenida > img {
+.bienvenida>img {
   height: 14vw;
   border-radius: 20px;
   margin: auto;
@@ -273,6 +282,7 @@ nav {
   border-radius: 4px;
   transition: all 1s;
 }
+
 .notiDual>article {
   width: 30%;
   padding: 30px;
@@ -283,7 +293,9 @@ nav {
   border-radius: 4px;
   transition: all 1s;
 }
-.art1:hover,article:hover {
+
+.art1:hover,
+article:hover {
   border-color: #e10600;
   cursor: pointer;
 }
@@ -304,7 +316,8 @@ nav {
   justify-content: center;
   align-items: center;
 }
-.notiDual img{
+
+.notiDual img {
   width: 15vw;
 }
 
@@ -312,28 +325,33 @@ nav {
 .notiDual>article h4 {
   transition: all 1s;
 }
+
 .art1:hover h4,
 .notiDual>article:hover h4 {
-  color: red; 
+  color: red;
 }
+
 /*Acaba noticias*/
 /*Horarios*/
 .horarios {
   height: 14vh;
 }
-.tempo{
+
+.tempo {
   font-family: F1Bold;
   font-weight: bold;
   font-size: 40px;
   text-align: center;
   margin: 90px;
   color: rgb(29, 28, 28);
-  
+
 }
-.horarioCM{
+
+.horarioCM {
   color: black;
   font-family: F1Bold;
 }
+
 /*Acaba horarios*/
 
 /*Mini Standing*/
@@ -342,19 +360,21 @@ nav {
   text-align: center;
   padding-bottom: 50px;
 }
-.stand{
+
+.stand {
   margin-top: 50px;
   display: block;
   justify-content: center;
   align-items: center;
   width: 80%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
-.listaTop{
-width: 50vw;
-list-style: none; 
-padding: 0; 
-margin: 25px auto;
+
+.listaTop {
+  width: 50vw;
+  list-style: none;
+  padding: 0;
+  margin: 25px auto;
 }
 
 .standLista {
@@ -365,12 +385,12 @@ margin: 25px auto;
   background-color: #f0f0f0;
   padding: 4px;
   border-radius: 5px;
-  position: relative; 
+  position: relative;
   transition: all 0.5s;
 }
 
 .standLista:hover {
-  background-color: rgb(29, 28, 28); 
+  background-color: rgb(29, 28, 28);
   color: white;
   cursor: pointer;
 }
@@ -379,43 +399,49 @@ margin: 25px auto;
   font-family: F1Bold;
   font-weight: bold;
   font-size: 18px;
-  color: #333; 
-  margin: 0; 
+  color: #333;
+  margin: 0;
   transition: all 0.5s;
 }
+
 .standLista:hover h3 {
   color: white;
 }
-.standLista h5{
+
+.standLista h5 {
   font-size: 14px;
-  color: #555; 
+  color: #555;
   padding: 3px;
   margin-left: 10px;
 }
+
 .standLista p {
   font-size: 14px;
-  color: #555; 
+  color: #555;
   background-color: #d5d5d5;
   padding: 3px;
   border-radius: 10px;
   text-align: right;
-  margin: 0; 
-  position: absolute; 
-  right: 10px; 
+  margin: 0;
+  position: absolute;
+  right: 10px;
 }
+
 .valLi {
   width: 100%;
   display: flex;
   padding: 10px;
-  position: relative; 
+  position: relative;
 }
+
 .valLi .separator {
-  margin: 0 5px; 
+  margin: 0 5px;
 }
+
 .btn {
   -webkit-font-smoothing: antialiased;
   text-align: center;
-  display: inline-block!important;
+  display: inline-block !important;
   appearance: none;
   border-radius: 5px;
   border: 2px;
@@ -432,7 +458,8 @@ margin: 25px auto;
   color: #fff;
   margin-top: 20px;
 }
-.btn:hover{
+
+.btn:hover {
   background-color: white;
   border: 1px solid #e10600;
   color: black;
@@ -480,20 +507,24 @@ footer {
   color: white;
   font-size: 12px;
 }
-.bx{
+
+.bx {
   color: white;
   transition: all 0.5s ease;
 }
-.bx:hover{
-  color:#d5d5d5;
+
+.bx:hover {
+  color: #d5d5d5;
 }
+
 /*Acaba footer*/
 
 /*ARHCIVO STANDING*/
-.link>a{
+.link>a {
   text-decoration: none;
 }
-.stanT{
+
+.stanT {
   margin-top: 0;
 }
 
@@ -540,33 +571,39 @@ footer {
   text-overflow: ellipsis;
   font-family: F1Bold;
 }
-.show{
+
+.show {
   display: block;
   animation: show 2s ease;
 }
-.unshow{
+
+.unshow {
   animation: unshow 1s ease;
   display: block;
 }
 
 @keyframes show {
-  0%{
+  0% {
     opacity: 0;
-  }  
-  100%{
+  }
+
+  100% {
     opacity: 1;
   }
 }
+
 @keyframes unshow {
-  0%{
+  0% {
     opacity: 1;
-  }  
-  100%{
+  }
+
+  100% {
     opacity: 0;
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1081px) {
+
   /* Fuentes */
   @font-face {
     font-family: 'Titillium Web';
@@ -610,20 +647,29 @@ footer {
   }
 
   /* Estilos generales de texto */
-  h1, a, h3, h2, p ,h5{
+  h1,
+  a,
+  h3,
+  h2,
+  p,
+  h5 {
     font-family: 'Titillium Web', sans-serif;
     color: white;
   }
 
-  h1, h2, h4 {
+  h1,
+  h2,
+  h4 {
     font-weight: bold;
   }
 
-  a, h3 {
+  a,
+  h3 {
     font-weight: 400;
   }
 
-  p , h5{
+  p,
+  h5 {
     font-weight: normal;
   }
 
@@ -642,7 +688,7 @@ footer {
     display: inline-block;
   }
 
-  li > a {
+  li>a {
     font-size: 1.2em;
   }
 
@@ -688,11 +734,11 @@ footer {
     opacity: 0.6;
   }
 
-  .fia > h3 {
+  .fia>h3 {
     opacity: 0.6;
   }
 
-  .fia > img {
+  .fia>img {
     height: 50px;
     margin: 12px;
     opacity: 0.4;
@@ -719,7 +765,7 @@ footer {
     width: 70%;
   }
 
-  .bienvenida > img {
+  .bienvenida>img {
     height: 14vw;
     border-radius: 20px;
     margin: auto;
@@ -842,7 +888,292 @@ footer {
     border-radius: 4px;
     transition: all 1s;
   }
+
   .notiDual>article {
-    width: 30%;
+    width: 100%;
+    padding: 30px;
+    margin: 20px;
+    border: 3px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    border-radius: 4px;
+    transition: all 1s;
+  }
+
+  .art1:hover,
+  article:hover {
+    border-color: #e10600;
+    cursor: pointer;
+  }
+
+  .notiI1 {
+    text-align: center;
+  }
+
+  .notiI1 img {
+    border-radius: 20px;
+  }
+
+  .notiDual {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notiDual img {
+    width: 100%;
+  }
+
+  .art1 h4,
+  .notiDual>article h4 {
+    transition: all 1s;
+  }
+
+  .art1:hover h4,
+  .notiDual>article:hover h4 {
+    color: red;
+  }
+
+  /* Estilos de horarios */
+  .horarios {
+    height: 14vh;
+  }
+
+  .tempo {
+    font-family: F1Bold;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 45px;
+    color: rgb(29, 28, 28);
+  }
+
+  .horarioCM {
+    color: black;
+    font-family: F1Bold;
+  }
+
+  /* Estilos de Mini Standing */
+  .miniStanding {
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .stand {
+    margin-top: 25px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .listaTop {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 12.5px auto;
+  }
+
+  .standLista {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    padding: 2px;
+    border-radius: 2.5px;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .standLista:hover {
+    background-color: rgb(29, 28, 28);
+    color: white;
+    cursor: pointer;
+  }
+
+  .standLista h3 {
+    font-family: F1Bold;
+    font-weight: bold;
+    font-size: 9px;
+    color: #333;
+    margin: 0;
+    transition: all 0.5s;
+  }
+
+  .standLista:hover h3 {
+    color: white;
+  }
+
+  .standLista h5 {
+    font-size: 7px;
+    color: #555;
+    padding: 1.5px;
+    margin-left: 5px;
+  }
+
+  .standLista p {
+    font-size: 7px;
+    color: #555;
+    background-color: #d5d5d5;
+    padding: 1.5px;
+    border-radius: 5px;
+    text-align: right;
+    margin: 0;
+    position: absolute;
+    right: 5px;
+  }
+
+  .valLi {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    position: relative;
+  }
+
+  .valLi .separator {
+    margin: 0 2.5px;
+  }
+
+  .btn {
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    display: inline-block !important;
+    appearance: none;
+    border-radius: 2.5px;
+    border: 1px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s;
+    font-family: "Titillium Web";
+    font-size: 6.5px;
+    letter-spacing: .25px;
+    font-weight: 300;
+    padding: 6px 7.5px 6px 7.5px;
+    background: #e10600;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .btn:hover {
+    background-color: white;
+    border: 0.5px solid #e10600;
+    color: black;
+  }
+
+  /* Estilos de footer */
+  footer {
+    background-color: #1d1c1c;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .iconos {
+    margin-bottom: 10px;
+  }
+
+  .iconos a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+  }
+
+  .nav_abajo {
+    margin-bottom: 10px;
+  }
+
+  .nav_abajo a {
+    text-decoration: none;
+    color: white;
+    font-size: 7px;
+    margin: 0 7.5px;
+    transition: all 0.3s ease;
+  }
+
+  .nav_abajo a:hover {
+    color: #e10600;
+  }
+
+  .logo_copy {
+    color: white;
+    font-size: 6px;
+  }
+
+  .bx {
+    color: white;
+    transition: all 0.5s ease;
+  }
+
+  .bx:hover {
+    color: #d5d5d5;
+  }
+
+  /* Estilos de archivo standing */
+  .link>a {
+    text-decoration: none;
+  }
+
+  .stanT {
+    margin-top: 0;
+  }
+
+  /* Estilos de horarios */
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+    border-bottom: 0.5px solid #ddd;
+    cursor: pointer;
+  }
+
+  .row:hover {
+    background-color: #f5f5f5;
+    transition: all 1s;
+  }
+
+  .row--details {
+    padding: 5px;
+    background-color: #f5f5f5;
+    display: none;
+  }
+
+  .cell {
+    padding: 5px;
+    flex: 1;
+  }
+
+  .cell--header {
+    font-weight: bold;
+    font-family: F1Bold;
+
+  }
+
+  .cell--content {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: F1Bold;
+  }
+
+  .show {
+    display: block;
+    animation: show 1s ease;
+  }
+
+  .unshow {
+    animation: unshow 0.5s ease;
   }
 }
