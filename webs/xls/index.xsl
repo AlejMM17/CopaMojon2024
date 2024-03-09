@@ -42,7 +42,7 @@
       </div>
         <section>
           <div class="bienvenida">
-            <img src="../imgs/bienvenidofoto1.avif" alt="coche" />
+            <img src="webs/imgs/imgprincipal.webp" alt="coche" />
             <div class="bienT">
               <h2>¡Bienvenidos a la Emocionante Copa Mojón de F1 23!</h2>
               <br />
