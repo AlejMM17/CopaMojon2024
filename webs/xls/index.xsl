@@ -77,7 +77,7 @@
                 <br/>
                 <br/>
                 <div class="top">
-                  <i class='bx bx-signal-1' style="color:#3671C6"></i>
+                  <i class='bx bx-signal-1' style="color:#000000"></i> <!--Cambiar colores por escu-->
                   <div class="piloto-tiempo">
                     <p class="polenombre">
                       <xsl:value-of select="primero/piloto" />
@@ -89,7 +89,7 @@
                 </div>
                 <div
                   class="top">
-                  <i class='bx bx-signal-2' style="color:#3671C6"></i>
+                  <i class='bx bx-signal-2' style="color:#000000"></i>
                   <div class="piloto-tiempo">
                     <p class="polenombre">
                       <xsl:value-of select="segundo/piloto" />
@@ -101,7 +101,7 @@
                 </div>
                 <div
                   class="top">
-                  <i class='bx bx-signal-3' style="color:#E8002D"></i>
+                  <i class='bx bx-signal-3' style="color:#000000"></i>
                   <div class="piloto-tiempo">
                     <p class="polenombre">
                       <xsl:value-of select="tercero/piloto" />
