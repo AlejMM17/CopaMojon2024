@@ -47,20 +47,20 @@
               <div class="centrado"></div>
               <div class="centrado"> 
                 <ul class="listaTop">
-                <xsl:for-each select="/f1/piloto">
-                  <xsl:sort select="sum(carreras/*[. != '-'])" order="descending"/>
-                  <xsl:if test="posicion">
-                    <li class="standLista">
-                      <div class="valLi">
-                        <h3><xsl:value-of select="posicion" /></h3>
-                        <span class="separator">-</span>
-                        <h3><xsl:value-of select="nombre" /></h3>
-                        <h5><xsl:value-of select="escuderia"/></h5>
-                        <p><xsl:value-of select="sum(carreras/*[. != '-'])" /><span>PTS</span></p>
-                      </div>
-                    </li>                  
-                  </xsl:if>
-                </xsl:for-each>
+                  <xsl:for-each select="/f1/piloto">
+                  <xsl:sort select="sum(carreras/*)" order="descending" data-type="number"/>    
+                  <xsl:if test="position()">
+        <li class="standLista">
+            <div class="valLi">
+                <h3><xsl:number value="position()" /></h3>
+                <span class="separator">-</span>
+                <h3><xsl:value-of select="nombre" /></h3>
+                <h5><xsl:value-of select="escuderia" /></h5>
+                <p><xsl:value-of select="sum(carreras/*)" /><span>PTS</span></p>
+            </div>
+        </li>
+    </xsl:if>
+</xsl:for-each>
               </ul>
             </div>
             </div>

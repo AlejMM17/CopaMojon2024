@@ -48,15 +48,17 @@
               <div class="centrado"></div>
               <div class="centrado"> 
                 <ul class="listaTop">
-                    <xsl:for-each select="f1/piloto[generate-id() = generate-id(key('escuderiaKey', escuderia)[1])]">
-                    <xsl:variable name="currentEscuderia" select="escuderia" />
-                    <xsl:variable name="puntosTotales" select="sum(key('escuderiaKey', $currentEscuderia)/carreras/*[. != '-'])" />
-                    <li class="standLista">
-                      <div class="valLi">
-                        <h3><xsl:value-of select="$currentEscuderia" /></h3>
-                        <p><xsl:value-of select="$puntosTotales" /><span>PTS</span></p>
-                      </div>
-                    </li>
+                  <xsl:for-each select="f1/piloto[generate-id() = generate-id(key('escuderiaKey', escuderia)[1])]">
+                  <xsl:sort select="sum(carreras/*)" order="descending" data-type="number"/>    
+                      <xsl:variable name="currentEscuderia" select="escuderia" />
+                      <xsl:variable name="puntosTotales" select="sum(key('escuderiaKey', $currentEscuderia)/carreras/*[. != '-'])" />
+                      <li class="standLista">
+                        <div class="valLi">
+                          <h3><xsl:number value="position()" />-</h3>
+                          <h3><xsl:value-of select="$currentEscuderia" /></h3>
+                          <p><xsl:value-of select="$puntosTotales" /><span>PTS</span></p>
+                        </div>
+                      </li>
                   </xsl:for-each>
               </ul>
             </div>

@@ -69,7 +69,7 @@
           <h3 class="tituloN">Última Carrera</h3>
           <div class="ultimaCarrera">
             <xsl:for-each select="f1/circuito">
-            <xsl:if test="@id = '1'">
+            <xsl:if test="@id = '22'">
             <div class="centrarIf">
               <div class="contenido-izquierda">
                 <h3 class="circuitoN">
@@ -184,20 +184,20 @@
               <div class="centrado"></div>
               <div class="centrado"> 
                 <ul class="listaTop">
-                <xsl:for-each select="/f1/piloto">
-                  <xsl:sort select="sum(carreras/*[. != '-'])" order="descending"/>
-                  <xsl:if test="posicion &lt;= 9">
-                    <li class="standLista">
-                      <div class="valLi">
-                        <h3><xsl:value-of select="posicion" /></h3>
-                        <span class="separator">-</span>
-                        <h3><xsl:value-of select="nombre" /></h3>
-                        <h5><xsl:value-of select="escuderia"/></h5>
-                        <p><xsl:value-of select="sum(carreras/*[. != '-'])" /><span>PTS</span></p>
-                      </div>
-                    </li>                  
-                  </xsl:if>
-                </xsl:for-each>
+                  <xsl:for-each select="/f1/piloto">
+                  <xsl:sort select="sum(carreras/*)" order="descending" data-type="number"/>    
+                  <xsl:if test="position() &lt;= 9">
+        <li class="standLista">
+            <div class="valLi">
+                <h3><xsl:number value="position()" /></h3>
+                <span class="separator">-</span>
+                <h3><xsl:value-of select="nombre" /></h3>
+                <h5><xsl:value-of select="escuderia" /></h5>
+                <p><xsl:value-of select="sum(carreras/*)" /><span>PTS</span></p>
+            </div>
+        </li>
+    </xsl:if>
+</xsl:for-each>
               </ul>
             </div>
               <a class="btn" href="../html/standing.html">Ver Standing completo</a>
