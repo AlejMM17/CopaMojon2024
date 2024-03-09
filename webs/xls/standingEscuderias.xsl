@@ -62,7 +62,7 @@
             </div>
             </div>
           </div>
-          <span class="espacio"> </span>
+          <span class="espacio escu"> </span>
         </section>
         <footer>
           <div class="iconos"><a href="https://www.tiktok.com/@copamojon?lang=es" target="_blank"><i class="bx bxl-tiktok"></i></a><a href="https://twitter.com/CopaMojon" target="_blank"><i class="bx bxl-twitter"></i></a><a href="https://www.youtube.com/@Orpa55" target="_blank"><i class="bx bxl-youtube"></i></a></div>
