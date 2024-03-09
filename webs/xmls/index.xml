@@ -405,7 +405,7 @@
         <posicion>20</posicion>
         <nombre>Poke</nombre>
         <imagenPiloto></imagenPiloto>
-        <escuderia>Reserva Aston Martin</escuderia>
+        <escuderia>Aston Martin</escuderia>
         <imagenEscuderia>astonmartin.png</imagenEscuderia>
         <carreras>
             <australia>-</australia>
@@ -426,7 +426,7 @@
         <posicion>21</posicion>
         <nombre>Oliver</nombre>
         <imagenPiloto></imagenPiloto>
-        <escuderia>Reserva Ferrari</escuderia>
+        <escuderia>Ferrari</escuderia>
         <imagenEscuderia>ferrari.png</imagenEscuderia>
         <carreras>
             <australia>-</australia>
@@ -447,7 +447,7 @@
         <posicion>22</posicion>
         <nombre>Gorka</nombre>
         <imagenPiloto>Gorka.png</imagenPiloto>
-        <escuderia>Reserva</escuderia>
+        <escuderia></escuderia>
         <imagenEscuderia></imagenEscuderia>
         <carreras>
             <australia>-</australia>
