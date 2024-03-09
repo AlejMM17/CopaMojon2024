@@ -47,9 +47,27 @@
               <div class="centrado"></div>
               <div class="centrado"> 
                 <ul class="listaTop">
+                  <div class="imagenes_top">
+                    <xsl:for-each select="/f1/piloto">
+                    <xsl:sort select="sum(./carreras/*[. != '-'])" order="descending" data-type="number"/>
+                    <xsl:if test="position() &lt;= 3">
+                   <div class="caja stTop">
+                       <!-- Primera parte: Puntos y foto de la persona -->
+                       <div class="usuario-info">
+                           <img src="../imgs/{imagenEscuderia}" alt="Imagen del usuario" class="imagenP"/>
+                       </div>
+                       <!-- Tercera parte: Nombre y equipo de la persona -->
+                       <div class="nombre-equipo box-oscu">
+                         <h2><xsl:number value="position()" />º</h2>
+                       </div>
+                   </div>
+                 </xsl:if>
+
+                   </xsl:for-each>
+                 </div>
                   <xsl:for-each select="f1/piloto[generate-id() = generate-id(key('escuderiaKey', escuderia)[1])]">
-                  <xsl:sort select="sum(carreras/*)" order="descending" data-type="number"/>    
-                      <xsl:variable name="currentEscuderia" select="escuderia" />
+                  <xsl:sort select="sum(./carreras/*[. != '-'])" order="descending" data-type="number"/>
+                  <xsl:variable name="currentEscuderia" select="escuderia"/>
                       <xsl:variable name="puntosTotales" select="sum(key('escuderiaKey', $currentEscuderia)/carreras/*[. != '-'])" />
                       <li class="standLista">
                         <div class="valLi">

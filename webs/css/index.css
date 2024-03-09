@@ -230,6 +230,15 @@ nav {
   width: 20%;
   text-align: center;
 }
+.imagenes_top{
+  display: flex;
+}
+.stTop{
+  border: 2px solid rgb(29, 28, 28);
+}
+.box-oscu{
+background-color: rgb(57, 57, 57);
+}
 
 .centrarIf {
   display: flex;
@@ -704,7 +713,12 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
-
+.box-oscu h2, .box-oscu p{
+  color: #ffffff;
+  }
+  .stTop{
+    padding: 0;
+  }
 /* Estilos para las líneas de color */
 .Ferrari, .Haas, .RedBull, .Mercedes, .Aston, .Williams, .Alpine, .McLaren, .Alfa, .Alpha {
   height: 2px;

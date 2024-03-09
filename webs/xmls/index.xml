@@ -235,7 +235,7 @@
     </piloto>
     <piloto number="12">
         <nombre>Tajes</nombre>
-        <imagenPiloto>IkerGrrr.png</imagenPiloto>
+        <imagenPiloto>IkerGrrr.jpg</imagenPiloto>
         <escuderia>McLaren</escuderia>
         <imagenEscuderia>mclaren.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
@@ -382,7 +382,7 @@
     </piloto>
     <piloto number="19">
         <nombre>Razvan</nombre>
-        <imagenPiloto></imagenPiloto>
+        <imagenPiloto>raz.jpeg</imagenPiloto>
         <escuderia>Alpha Tauri</escuderia>
         <imagenEscuderia>alphatauri.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
@@ -402,8 +402,8 @@
         </carreras>        
     </piloto>
     <piloto number="20">
-        <nombre>Poke</nombre>
-        <imagenPiloto></imagenPiloto>
+        <nombre>Alejandro</nombre>
+        <imagenPiloto>alejandro.jpeg</imagenPiloto>
         <escuderia>Aston Martin</escuderia>
         <imagenEscuderia>astonmartin.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
@@ -424,7 +424,7 @@
     </piloto>
     <piloto number="21">
         <nombre>Oliver</nombre>
-        <imagenPiloto></imagenPiloto>
+        <imagenPiloto>HermanoJoel.png</imagenPiloto>
         <escuderia>Ferrari</escuderia>
         <imagenEscuderia>ferrari.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
