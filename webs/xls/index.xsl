@@ -29,8 +29,7 @@
                           pilotos</a></li>
                   <li><a href="webs/html/standingEscuderias.html">Clasificacion escuderias</a></li>
                   <li><a href="webs/html/scheudle.html">Horarios</a></li>
-                  <li><a href="#">Estadisticas generales</a></li>
-                  <li><a href="#">Superlicencias</a></li>
+                  <li><a href="webs/html/superlicencias.html">Superlicencias</a></li>
                   <li><a href="webs/html/rules.html">Info y reglas</a></li>
                   <li><a href="https://www.twitch.tv/extremsito"
                           target="_blank"><img
@@ -211,8 +210,7 @@
             <a href="webs/html/standing.html">Clasificacion pilotos</a>
             <a href="webs/html/standingEscuderias.html">Clasificacion escuderias</a>
             <a href="webs/html/scheudle.html">Horarios</a>
-            <a href="#">Estadisticas generales</a>
-            <a href="#">Superlicencias</a>
+            <a href="webs/html/superlicencias.html">Superlicencias</a>
             <a href="webs/html/rules.html">Info y reglas</a>
           </div>
           <div class="logo_copy">

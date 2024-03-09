@@ -9,7 +9,7 @@
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Standing Escuderias - Copa Mojón</title>
+        <title>Superlicencias - Copa Mojón</title>
         <link rel="icon" type="image/png" href="../imgs/LogoCopaMojon.png" />
         <link rel="stylesheet" href="../css/index.css" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
@@ -40,30 +40,28 @@
                 </nav>
             </header>
       </div>
-        <section>
-          <div class="miniStanding stanT">
-            <h3 class="tituloN">Standing Escuderias</h3>
-            <div class="stand">
-              <div class="centrado"></div>
-              <div class="centrado"> 
-                <ul class="listaTop">
-                  <xsl:for-each select="f1/piloto[generate-id() = generate-id(key('escuderiaKey', escuderia)[1])]">
-                  <xsl:sort select="sum(carreras/*)" order="descending" data-type="number"/>    
-                      <xsl:variable name="currentEscuderia" select="escuderia" />
-                      <xsl:variable name="puntosTotales" select="sum(key('escuderiaKey', $currentEscuderia)/carreras/*[. != '-'])" />
-                      <li class="standLista">
-                        <div class="valLi">
-                          <h3><xsl:number value="position()" />-</h3>
-                          <h3><xsl:value-of select="$currentEscuderia" /></h3>
-                          <p><xsl:value-of select="$puntosTotales" /><span>PTS</span></p>
-                        </div>
-                      </li>
-                  </xsl:for-each>
-              </ul>
+      <h3 class="tituloN">Superlicencias</h3>
+
+        <section class="pilotosS">
+            <xsl:for-each select="/f1/piloto">
+            <div class="caja">
+                <!-- Primera parte: Puntos y foto de la persona -->
+                <div class="usuario-info">
+                    <div class="puntos"><h2>Puntos: <xsl:value-of select="superlicencia"/></h2></div>
+                    <img src="../imgs/{imagenPiloto}" alt="Imagen del usuario" class="imagenP"/>
+                </div>
+        
+                <!-- Segunda parte: Línea de color para diferenciar -->
+                <div class="{escuderia}"></div>
+        
+                <!-- Tercera parte: Nombre y equipo de la persona -->
+                <div class="nombre-equipo">
+                    <h2><xsl:value-of select="nombre"/></h2>
+                    <p>Escuderia: <xsl:value-of select="escuderia"/> </p>
+                </div>
             </div>
-            </div>
-          </div>
-          <span class="espacio escu"> </span>
+            </xsl:for-each>
+            
         </section>
         <footer>
           <div class="iconos"><a href="https://www.tiktok.com/@copamojon?lang=es" target="_blank"><i class="bx bxl-tiktok"></i></a><a href="https://twitter.com/CopaMojon" target="_blank"><i class="bx bxl-twitter"></i></a><a href="https://www.youtube.com/@Orpa55" target="_blank"><i class="bx bxl-youtube"></i></a></div>

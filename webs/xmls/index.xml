@@ -7,6 +7,7 @@
         <imagenPiloto>Joel.png</imagenPiloto>
         <escuderia>Ferrari</escuderia>
         <imagenEscuderia>ferrari.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -27,6 +28,7 @@
         <imagenPiloto>giro.png</imagenPiloto>
         <escuderia>Haas</escuderia>
         <imagenEscuderia>haas.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -47,6 +49,7 @@
         <imagenPiloto>IkerMoha.png</imagenPiloto>
         <escuderia>RedBull</escuderia>
         <imagenEscuderia>Redbull.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -67,6 +70,7 @@
         <imagenPiloto>pauPatron.png</imagenPiloto>
         <escuderia>Mercedes</escuderia>
         <imagenEscuderia>mercedes.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -87,6 +91,7 @@
         <imagenPiloto>Teo.png</imagenPiloto>
         <escuderia>Aston Martin</escuderia>
         <imagenEscuderia>astonmartin.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -107,6 +112,7 @@
         <imagenPiloto>Ibai.png</imagenPiloto>
         <escuderia>Williams</escuderia>
         <imagenEscuderia>williamsl.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -127,6 +133,7 @@
         <imagenPiloto>Dylan.png</imagenPiloto>
         <escuderia>Alpine</escuderia>
         <imagenEscuderia>alpine.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -147,6 +154,7 @@
         <imagenPiloto>alex.png</imagenPiloto>
         <escuderia>Alpine</escuderia>
         <imagenEscuderia>alpine.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -167,6 +175,7 @@
         <imagenPiloto>pol.png</imagenPiloto>
         <escuderia>Ferrari</escuderia>
         <imagenEscuderia>ferrari.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -187,6 +196,7 @@
         <imagenPiloto>calvo.png</imagenPiloto>
         <escuderia>Mercedes</escuderia>
         <imagenEscuderia>mercedes.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -207,6 +217,7 @@
         <imagenPiloto>MarcelMimi.png</imagenPiloto>
         <escuderia>RedBull</escuderia>
         <imagenEscuderia>Redbull.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -227,6 +238,7 @@
         <imagenPiloto>IkerGrrr.png</imagenPiloto>
         <escuderia>McLaren</escuderia>
         <imagenEscuderia>mclaren.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -247,6 +259,7 @@
         <imagenPiloto>Oriol.png</imagenPiloto>
         <escuderia>Williams</escuderia>
         <imagenEscuderia>williamsl.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -267,6 +280,7 @@
         <imagenPiloto>Danielson.jpeg</imagenPiloto>
         <escuderia>Aston Martin</escuderia>
         <imagenEscuderia>astonmartin.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -287,6 +301,7 @@
         <imagenPiloto></imagenPiloto>
         <escuderia>Alfa Romeo</escuderia>
         <imagenEscuderia>alfaromeojpeg.jpeg</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -307,6 +322,7 @@
         <imagenPiloto></imagenPiloto>
         <escuderia>Alfa Romeo</escuderia>
         <imagenEscuderia>alfaromeojpeg.jpeg</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -327,6 +343,7 @@
         <imagenPiloto>Biel.png</imagenPiloto>
         <escuderia>Alpha Tauri</escuderia>
         <imagenEscuderia>alphatauri.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -347,6 +364,7 @@
         <imagenPiloto>Coro.jpeg</imagenPiloto>
         <escuderia>Haas</escuderia>
         <imagenEscuderia>haas.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -367,6 +385,7 @@
         <imagenPiloto></imagenPiloto>
         <escuderia>Alpha Tauri</escuderia>
         <imagenEscuderia>alphatauri.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -387,6 +406,7 @@
         <imagenPiloto></imagenPiloto>
         <escuderia>Aston Martin</escuderia>
         <imagenEscuderia>astonmartin.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -407,6 +427,7 @@
         <imagenPiloto></imagenPiloto>
         <escuderia>Ferrari</escuderia>
         <imagenEscuderia>ferrari.png</imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>
@@ -427,6 +448,7 @@
         <imagenPiloto>Gorka.png</imagenPiloto>
         <escuderia></escuderia>
         <imagenEscuderia></imagenEscuderia>
+        <superlicencia>6</superlicencia>
         <carreras>
             <australia>0</australia>
             <canada>0</canada>

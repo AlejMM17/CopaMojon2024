@@ -652,3 +652,73 @@ footer {
   height: 20vh;
 }
 /*reglas fin*/
+/*Superlicencias*/
+.caja {
+  padding: 20px;
+  margin: 20px;
+  width: 20vw;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.caja:hover {
+  transform: scale(1.05); /* Ajusta el valor según tus preferencias */
+  cursor: pointer;
+}
+
+/* Estilos para la tercera parte */
+.nombre-equipo {
+  text-align: center;
+}
+
+.nombre-equipo h2, .nombre-equipo p {
+  color: #1d1c1c;
+}
+
+.usuario-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.puntos h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1d1c1c;
+}
+
+.imagenP {
+  height: 10vw;
+}
+
+.pilotosS {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Estilos para las líneas de color */
+.Ferrari, .Haas, .RedBull, .Mercedes, .Aston, .Williams, .Alpine, .McLaren, .Alfa, .Alpha {
+  height: 2px;
+  margin: 10px 0;
+}
+
+/* Colores de las líneas de color */
+.Ferrari { background-color: #ff0000; }
+.Haas { background-color: #bebcbc; }
+.RedBull { background-color: #1e3ada; }
+.Mercedes { background-color: #33e7c3; }
+.Aston { background-color: #2a904f; }
+.Williams { background-color: #86dbff; }
+.Alpine { background-color: #fd7dd8; }
+.McLaren { background-color: #ffa200; }
+.Alfa { background-color: #464646; }
+.Alpha { background-color: #0e1459; }
