@@ -299,7 +299,7 @@ http://xsltransform.net/94hvTAf/3-->
     </piloto>
     <piloto number="15">
         <nombre>Daniel</nombre>
-        <imagenPiloto></imagenPiloto>
+        <imagenPiloto>daaniel.jpeg</imagenPiloto>
         <escuderia>Alfa Romeo</escuderia>
         <imagenEscuderia>alfaromeojpeg.jpeg</imagenEscuderia>
         <superlicencia>6</superlicencia>
@@ -320,7 +320,7 @@ http://xsltransform.net/94hvTAf/3-->
     </piloto>
     <piloto number="16">
         <nombre>Aaron</nombre>
-        <imagenPiloto></imagenPiloto>
+        <imagenPiloto>aaron.jpeg</imagenPiloto>
         <escuderia>Alfa Romeo</escuderia>
         <imagenEscuderia>alfaromeojpeg.jpeg</imagenEscuderia>
         <superlicencia>6</superlicencia>
