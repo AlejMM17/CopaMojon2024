@@ -16,7 +16,7 @@
       <body>
         <div>
         <div class="fia">
-          <img src="../imgs/fia.avif" alt="fia_logo" />
+          <img src="../imgs/logofia.png" alt="fia_logo" />
           <h3>X</h3>
           <img src="../imgs/LogoCopaMojon.png" alt="" class="logo" />
         </div>
