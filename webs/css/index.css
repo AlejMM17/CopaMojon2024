@@ -736,3 +736,48 @@ footer {
 .McLaren { background-color: #ffa200; }
 .Alfa { background-color: #464646; }
 .Alpha { background-color: #0e1459; }
+
+/*Stats Pilotos*/
+.perfil {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.foto img {
+  width: 400px;
+  height: auto;
+  border-radius: 10%;
+}
+
+.estadisticas {
+  margin-left: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.descripcion {
+  margin-top: 20px;
+}
+
+.descripcionpiloto{
+  color: #1d1c1c;
+}
+/* Puedes agregar más estilos según tus preferencias */
