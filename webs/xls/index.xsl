@@ -128,7 +128,7 @@
                   <p class="notiTexto">¡Emoción y competencia están de vuelta con la resplandeciente reaparición de la Copa Mojón! Después de una pausa llena de expectativas, los motores vuelven a rugir y los pilotos se preparan para desafiar la pista en la tan esperada temporada de la Copa Mojón. Este emocionante regreso promete momentos de pura adrenalina, estrategias fascinantes y carreras que mantendrán a los fanáticos al borde de sus asientos. ¡Prepárate para sumergirte en la acción de la competición más emocionante del mundo automovilístico, la Copa Mojón está de vuelta para llevar la emoción a nuevos niveles!</p>
                 </div>
                 <div class="notiI1">
-                  <img src="../imgs/parrillaf12.jpeg" alt=""/>
+                  <img src="../imgs/lineup.jpg" width="1200"/>
                 </div>
               </article>
               <div class="notiDual">

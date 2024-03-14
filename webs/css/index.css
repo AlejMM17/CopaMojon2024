@@ -742,31 +742,29 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 20px;
+  margin: 5px;
 }
 
 .foto img {
   width: 400px;
   height: auto;
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 .estadisticas {
-  margin-left: 20px;
+  text-align: justify;
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
-}
-
-table, th, td {
-  border: 1px solid #ddd;
+  border-spacing: 0;
 }
 
 th, td {
   padding: 8px;
-  text-align: left;
+  text-align: justify;
+  font-size: 20px;
 }
 
 th {
@@ -774,10 +772,27 @@ th {
 }
 
 .descripcion {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .descripcionpiloto{
   color: #1d1c1c;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.statstitulo{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1d1c1c;
+  text-align: center;
+}
+
+.statsvalores{
+  text-align: center;
+  font-size: 20px;
+  color: black;
 }
 /* Puedes agregar más estilos según tus preferencias */
