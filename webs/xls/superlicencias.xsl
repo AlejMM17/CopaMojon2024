@@ -44,7 +44,7 @@
 
         <section class="pilotosS">
             <xsl:for-each select="/f1/piloto">
-            <div class="caja">
+            <div class="caja {escuderia}1" id="superL">
                 <!-- Primera parte: Puntos y foto de la persona -->
                 <div class="usuario-info">
                     <div class="puntos"><h2>Puntos: <xsl:value-of select="superlicencia"/></h2></div>

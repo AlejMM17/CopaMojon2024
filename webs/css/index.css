@@ -796,3 +796,19 @@ th {
   color: black;
 }
 /* Puedes agregar más estilos según tus preferencias */
+
+.Ferrari1:hover { border-color: #ff0000; }
+.Haas1:hover { border-color: #bebcbc; }
+.RedBull1:hover { border-color: #1e3ada; }
+.Mercedes1:hover { border-color: #33e7c3; }
+.Martin1:hover{ border-color: #2a904f; }
+.Williams1:hover { border-color: #86dbff; }
+.Alpine1:hover { border-color: #fd7dd8; }
+.McLaren1:hover { border-color: #ffa200; }
+.Romeo1:hover { border-color: #464646; }
+.Tauri1:hover { border-color: #0e1459; }
+#superL{
+  background-color: white;
+  height:auto;
+  margin:20px;
+}
