@@ -6,12 +6,10 @@ http://xsltransform.net/94hvTAf/3-->
     <piloto number="1">
         <nombre>Joel</nombre>
         <imagenPiloto>Joel.png</imagenPiloto>
-        <escuderia>Ferrari</escuderia>
-        <imagenEscuderia>ferrari.png</imagenEscuderia>
+        <escuderia>McLaren</escuderia>
+        <imagenEscuderia>mclaren.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>11</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -23,12 +21,10 @@ http://xsltransform.net/94hvTAf/3-->
         <piloto number="2">
         <nombre>Giro</nombre>
         <imagenPiloto>giro.png</imagenPiloto>
-        <escuderia>Haas</escuderia>
-        <imagenEscuderia>haas.png</imagenEscuderia>
+        <escuderia>Alpine</escuderia>
+        <imagenEscuderia>alpine.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>28</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -40,12 +36,10 @@ http://xsltransform.net/94hvTAf/3-->
         <piloto number="3">
         <nombre>Moha</nombre>
         <imagenPiloto>IkerMoha.png</imagenPiloto>
-        <escuderia>RedBull</escuderia>
-        <imagenEscuderia>Redbull.png</imagenEscuderia>
+        <escuderia>Aston Martin</escuderia>
+        <imagenEscuderia>astonmartin.jpg</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>18</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -57,12 +51,10 @@ http://xsltransform.net/94hvTAf/3-->
         <piloto number="4">
         <nombre>Patron</nombre>
         <imagenPiloto>pauPatron.png</imagenPiloto>
-        <escuderia>Mercedes</escuderia>
-        <imagenEscuderia>mercedes.png</imagenEscuderia>
+        <escuderia>RedBull</escuderia>
+        <imagenEscuderia>Redbull.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>5</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -74,12 +66,10 @@ http://xsltransform.net/94hvTAf/3-->
         <piloto number="5">
         <nombre>Teo</nombre>
         <imagenPiloto>Teo.png</imagenPiloto>
-        <escuderia>Aston Martin</escuderia>
-        <imagenEscuderia>astonmartin.png</imagenEscuderia>
+        <escuderia>Alfa Romeo</escuderia>
+        <imagenEscuderia>alfaromeojpeg.jpeg</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>2</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -91,12 +81,10 @@ http://xsltransform.net/94hvTAf/3-->
         <piloto number="6">
         <nombre>Ibai</nombre>
         <imagenPiloto>Ibai.png</imagenPiloto>
-        <escuderia>Williams</escuderia>
-        <imagenEscuderia>williamsl.png</imagenEscuderia>
+        <escuderia>Haas</escuderia>
+        <imagenEscuderia>haas.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>13</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -108,12 +96,10 @@ http://xsltransform.net/94hvTAf/3-->
         <piloto number="7">
         <nombre>Dymo</nombre>
         <imagenPiloto>Dylan.png</imagenPiloto>
-        <escuderia>Alpine</escuderia>
-        <imagenEscuderia>alpine.png</imagenEscuderia>
+        <escuderia>Ferrari</escuderia>
+        <imagenEscuderia>ferrari.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>0</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -125,12 +111,10 @@ http://xsltransform.net/94hvTAf/3-->
     <piloto number="8">
         <nombre>Barrosa</nombre>
         <imagenPiloto>alex.png</imagenPiloto>
-        <escuderia>Alpine</escuderia>
-        <imagenEscuderia>alpine.png</imagenEscuderia>
+        <escuderia>RedBull</escuderia>
+        <imagenEscuderia>Redbull.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>6</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -142,12 +126,10 @@ http://xsltransform.net/94hvTAf/3-->
     <piloto number="9">
         <nombre>Pol</nombre>
         <imagenPiloto>pol.png</imagenPiloto>
-        <escuderia>Ferrari</escuderia>
-        <imagenEscuderia>ferrari.png</imagenEscuderia>
+        <escuderia>Haas</escuderia>
+        <imagenEscuderia>haas.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>1</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -159,12 +141,10 @@ http://xsltransform.net/94hvTAf/3-->
     <piloto number="10">
         <nombre>Calvo</nombre>
         <imagenPiloto>calvo.png</imagenPiloto>
-        <escuderia>Mercedes</escuderia>
-        <imagenEscuderia>mercedes.png</imagenEscuderia>
+        <escuderia>Ferrari</escuderia>
+        <imagenEscuderia>ferrari.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>3</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -176,12 +156,10 @@ http://xsltransform.net/94hvTAf/3-->
     <piloto number="11">
         <nombre>Marcel</nombre>
         <imagenPiloto>MarcelMimi.png</imagenPiloto>
-        <escuderia>RedBull</escuderia>
-        <imagenEscuderia>Redbull.png</imagenEscuderia>
+        <escuderia>Alpine</escuderia>
+        <imagenEscuderia>alpine.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>0</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -191,14 +169,12 @@ http://xsltransform.net/94hvTAf/3-->
         </carreras>        
     </piloto>
     <piloto number="12">
-        <nombre>Tajes</nombre>
-        <imagenPiloto>IkerGrrr.jpg</imagenPiloto>
-        <escuderia>McLaren</escuderia>
-        <imagenEscuderia>mclaren.png</imagenEscuderia>
+        <nombre>Uri</nombre>
+        <imagenPiloto>Oriol.png</imagenPiloto>
+        <escuderia>Alfa Romeo</escuderia>
+        <imagenEscuderia>alfaromeojpeg.jpeg</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>21</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -208,14 +184,12 @@ http://xsltransform.net/94hvTAf/3-->
         </carreras>        
     </piloto>
     <piloto number="13">
-        <nombre>Uri</nombre>
-        <imagenPiloto>Oriol.png</imagenPiloto>
-        <escuderia>Williams</escuderia>
-        <imagenEscuderia>williamsl.png</imagenEscuderia>
+        <nombre>JT</nombre>
+        <imagenPiloto>Danielson.jpeg</imagenPiloto>
+        <escuderia>McLaren</escuderia>
+        <imagenEscuderia>mclaren.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>4</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -225,14 +199,13 @@ http://xsltransform.net/94hvTAf/3-->
         </carreras>        
     </piloto>
     <piloto number="14">
-        <nombre>JT</nombre>
-        <imagenPiloto>Danielson.jpeg</imagenPiloto>
+        <nombre>Biel</nombre>
+        <imagenPiloto>Biel.png</imagenPiloto>
         <escuderia>Aston Martin</escuderia>
-        <imagenEscuderia>astonmartin.png</imagenEscuderia>
+        <imagenEscuderia>astonmartin.jpg</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>7</r1>
-            <r2>0</r2>
+
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -242,14 +215,12 @@ http://xsltransform.net/94hvTAf/3-->
         </carreras>        
     </piloto>
     <piloto number="15">
-        <nombre>Daniel</nombre>
-        <imagenPiloto>daaniel.jpeg</imagenPiloto>
-        <escuderia>Alfa Romeo</escuderia>
-        <imagenEscuderia>alfaromeojpeg.jpeg</imagenEscuderia>
+        <nombre>Coro</nombre>
+        <imagenPiloto>Coro.jpeg</imagenPiloto>
+        <escuderia>Aston Martin</escuderia>
+        <imagenEscuderia>astonmartin.jpg</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>0</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -259,14 +230,12 @@ http://xsltransform.net/94hvTAf/3-->
         </carreras>        
     </piloto>
     <piloto number="16">
-        <nombre>Aaron</nombre>
-        <imagenPiloto>aaron.jpeg</imagenPiloto>
-        <escuderia>Alfa Romeo</escuderia>
-        <imagenEscuderia>alfaromeojpeg.jpeg</imagenEscuderia>
+        <nombre>Alejandro</nombre>
+        <imagenPiloto>alejandro.jpeg</imagenPiloto>
+        <escuderia>McLaren</escuderia>
+        <imagenEscuderia>mclaren.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>0</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -276,14 +245,12 @@ http://xsltransform.net/94hvTAf/3-->
         </carreras>        
     </piloto>
     <piloto number="17">
-        <nombre>Biel</nombre>
-        <imagenPiloto>Biel.png</imagenPiloto>
-        <escuderia>Alpha Tauri</escuderia>
-        <imagenEscuderia>alphatauri.png</imagenEscuderia>
+        <nombre>Oliver</nombre>
+        <imagenPiloto>HermanoJoel.png</imagenPiloto>
+        <escuderia>McLaren</escuderia>
+        <imagenEscuderia>mclaren.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>0</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>
@@ -293,99 +260,12 @@ http://xsltransform.net/94hvTAf/3-->
         </carreras>        
     </piloto>
     <piloto number="18">
-        <nombre>Coro</nombre>
-        <imagenPiloto>Coro.jpeg</imagenPiloto>
+        <nombre>Gorka</nombre>
+        <imagenPiloto>Gorka.png</imagenPiloto>
         <escuderia>Haas</escuderia>
         <imagenEscuderia>haas.png</imagenEscuderia>
         <superlicencia>6</superlicencia>
         <carreras>
-            <r1>0</r1>
-            <r2>0</r2>
-            <r3>0</r3>
-            <r4>0</r4>
-            <r5>0</r5>
-            <r6>0</r6>
-            <r7>0</r7>
-            <r8>0</r8>
-        </carreras>        
-    </piloto>
-    <piloto number="19">
-        <nombre>Razvan</nombre>
-        <imagenPiloto>raz.jpeg</imagenPiloto>
-        <escuderia>Alpha Tauri</escuderia>
-        <imagenEscuderia>alphatauri.png</imagenEscuderia>
-        <superlicencia>6</superlicencia>
-        <carreras>
-            <r1>15</r1>
-            <r2>0</r2>
-            <r3>0</r3>
-            <r4>0</r4>
-            <r5>0</r5>
-            <r6>0</r6>
-            <r7>0</r7>
-            <r8>0</r8>
-        </carreras>        
-    </piloto>
-    <piloto number="20">
-        <nombre>Alejandro</nombre>
-        <imagenPiloto>alejandro.jpeg</imagenPiloto>
-        <escuderia>Aston Martin</escuderia>
-        <imagenEscuderia>astonmartin.png</imagenEscuderia>
-        <superlicencia>6</superlicencia>
-        <carreras>
-            <r1>0</r1>
-            <r2>0</r2>
-            <r3>0</r3>
-            <r4>0</r4>
-            <r5>0</r5>
-            <r6>0</r6>
-            <r7>0</r7>
-            <r8>0</r8>
-        </carreras>        
-    </piloto>
-    <piloto number="21">
-        <nombre>Oliver</nombre>
-        <imagenPiloto>HermanoJoel.png</imagenPiloto>
-        <escuderia>Ferrari</escuderia>
-        <imagenEscuderia>ferrari.png</imagenEscuderia>
-        <superlicencia>6</superlicencia>
-        <carreras>
-            <r1>0</r1>
-            <r2>0</r2>
-            <r3>0</r3>
-            <r4>0</r4>
-            <r5>0</r5>
-            <r6>0</r6>
-            <r7>0</r7>
-            <r8>0</r8>
-        </carreras>        
-    </piloto>
-    <piloto number="22">
-        <nombre>Gorka</nombre>
-        <imagenPiloto>Gorka.png</imagenPiloto>
-        <escuderia></escuderia>
-        <imagenEscuderia></imagenEscuderia>
-        <superlicencia>6</superlicencia>
-        <carreras>
-            <r1>0</r1>
-            <r2>0</r2>
-            <r3>0</r3>
-            <r4>0</r4>
-            <r5>0</r5>
-            <r6>0</r6>
-            <r7>0</r7>
-            <r8>0</r8>
-        </carreras>        
-    </piloto>
-    <piloto number="23">
-        <nombre>Xaviers</nombre>
-        <imagenPiloto>xaviers.png</imagenPiloto>
-        <escuderia>McLaren</escuderia>
-        <imagenEscuderia>mclaren.png</imagenEscuderia>
-        <superlicencia>6</superlicencia>
-        <carreras>
-            <r1>9</r1>
-            <r2>0</r2>
             <r3>0</r3>
             <r4>0</r4>
             <r5>0</r5>

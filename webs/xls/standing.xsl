@@ -8,7 +8,7 @@
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Standing Pìlotos - Copa Mojón</title>
+        <title>Standing Pìlotos - JT CUP</title>
         <link rel="icon" type="image/png" href="../imgs/LogoCopaMojon.png" />
         <link rel="stylesheet" href="../css/index.css" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
@@ -22,7 +22,7 @@
         </div>
         <header>
                 <div class="titulo link"><a href="../../index.html">
-                        <h1>Copa Mojón 2024</h1></a></div>
+                        <h1>JT CUP 2024</h1></a></div>
                 <nav>
                     <ul>
                         <li><a href="standing.html">Clasificacion
@@ -96,7 +96,7 @@
             <a href="rules.html">Info y reglas</a>
           </div>
           <div class="logo_copy">
-            <p>©2024 Copa Mojón - Todos los derechos reservados</p>
+            <p>©2024 JT CUP - Todos los derechos reservados</p>
           </div>
         </footer>
         

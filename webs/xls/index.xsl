@@ -8,7 +8,7 @@
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Página Principal - Copa Mojón</title>
+        <title>Página Principal - JT CUP</title>
         <link rel="icon" type="image/png" href="../imgs/LogoCopaMojon.png" />
         <link rel="stylesheet" href="../css/index.css" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
@@ -22,7 +22,7 @@
         </div>
         <header>
           <div class="titulo link"><a href="../../index.html">
-                  <h1>Copa Mojón 2024</h1></a></div>
+                  <h1>JT CUP 2024</h1></a></div>
           <nav>
               <ul>
                   <li><a href="webs/html/standing.html">Clasificacion
@@ -43,24 +43,24 @@
           <div class="bienvenida">
             <img src="webs/imgs/imgprincipal.webp" alt="coche" />
             <div class="bienT">
-              <h2>¡Bienvenidos a la Emocionante Copa Mojón de F1 23!</h2>
+              <h2>¡Bienvenidos a la Emocionante JT CUP de F1 23!</h2>
               <br />
               <p>
                 En la pista virtual donde la velocidad y la estrategia se encuentran, les damos la
-    más cordial bienvenida a la Copa Mojón de F1 23. Prepárense para vivir la adrenalina de la
+    más cordial bienvenida a la JT CUP de F1 23. Prepárense para vivir la adrenalina de la
     competición automovilística más emocionante, donde pilotos virtuosos se enfrentarán en batallas
     épicas por la gloria.
               </p>
               <br />
               <p>
                 Sumérgete en el mundo de la velocidad, desafía tus límites y experimenta la
-    competencia en su máxima expresión. La Copa Mojón no solo es un torneo, ¡es un viaje apasionante
+    competencia en su máxima expresión. La JT CUP no solo es un torneo, ¡es un viaje apasionante
     lleno de giros inesperados y momentos épicos en la pista!
               </p>
               <br />
               <p>
                 ¿Tienes lo necesario para conquistar la carretera virtual y destacar como el campeón
-    supremo de la Copa Mojón de F1 23? ¡Únete a nosotros y descúbrelo! La emoción está a punto de
+    supremo de la JT CUP de F1 23? ¡Únete a nosotros y descúbrelo! La emoción está a punto de
     desatarse, ¡que comience la carrera hacia la victoria!
               </p>
             </div>
@@ -124,8 +124,8 @@
             <section>
               <article class="art1"> 
                 <div>
-                  <h4 class="notiTitulo">¡La Esperada Vuelta de la Copa Mojón es una Realidad!</h4> <br/>
-                  <p class="notiTexto">¡Emoción y competencia están de vuelta con la resplandeciente reaparición de la Copa Mojón! Después de una pausa llena de expectativas, los motores vuelven a rugir y los pilotos se preparan para desafiar la pista en la tan esperada temporada de la Copa Mojón. Este emocionante regreso promete momentos de pura adrenalina, estrategias fascinantes y carreras que mantendrán a los fanáticos al borde de sus asientos. ¡Prepárate para sumergirte en la acción de la competición más emocionante del mundo automovilístico, la Copa Mojón está de vuelta para llevar la emoción a nuevos niveles!</p>
+                  <h4 class="notiTitulo">¡La Esperada Vuelta de la JT CUP es una Realidad!</h4> <br/>
+                  <p class="notiTexto">¡Emoción y competencia están de vuelta con la resplandeciente reaparición de la JT CUP! Después de una pausa llena de expectativas, los motores vuelven a rugir y los pilotos se preparan para desafiar la pista en la tan esperada temporada de la JT CUP. Este emocionante regreso promete momentos de pura adrenalina, estrategias fascinantes y carreras que mantendrán a los fanáticos al borde de sus asientos. ¡Prepárate para sumergirte en la acción de la competición más emocionante del mundo automovilístico, la JT CUP está de vuelta para llevar la emoción a nuevos niveles!</p>
                 </div>
                 <div class="notiI1">
                   <img src="../imgs/lineup.jpg" width="1200"/>
@@ -138,7 +138,7 @@
                   </div>
                   <div>
                     <h4>Próximamente</h4> <br/>
-                    <p>Futuras Noticias de la Copa Mojón</p>
+                    <p>Futuras Noticias de la JT CUP</p>
                   </div>
                 </article>             
                 <article>
@@ -147,7 +147,7 @@
                   </div>
                   <div>
                     <h4>Próximamente</h4> <br/>
-                    <p>Futuras Noticias de la Copa Mojón</p>
+                    <p>Futuras Noticias de la JT CUP</p>
                   </div>
                 </article>
               </div>
@@ -158,7 +158,7 @@
                   </div>
                   <div>
                     <h4>Próximamente</h4> <br/>
-                    <p>Futuras Noticias de la Copa Mojón</p>
+                    <p>Futuras Noticias de la JT CUP</p>
                   </div>
                 </article>
                 <article>
@@ -167,7 +167,7 @@
                   </div>
                   <div>
                     <h4>Próximamente</h4> <br/>
-                    <p>Futuras Noticias de la Copa Mojón</p>
+                    <p>Futuras Noticias de la JT CUP</p>
                   </div>
                 </article>
               </div>
@@ -235,7 +235,7 @@
             <a href="webs/html/rules.html">Info y reglas</a>
           </div>
           <div class="logo_copy">
-            <p>©2024 Copa Mojón - Todos los derechos reservados</p>
+            <p>©2024 JT CUP - Todos los derechos reservados</p>
           </div>
         </footer>
         
